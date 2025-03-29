@@ -6,13 +6,17 @@ namespace Business.Services;
 
 public class TestService : ITestService
 {
+    private readonly DatabaseContext _db;
+    
+    public TestService(DatabaseContext db)
+    {
+        _db = db;
+    }
+    
     public async Task<string> GetTest()
     {
-        // TODO: Get database by factory
-        using var db = new DatabaseContext();
-        
-        db.Add(new User());
-        await db.SaveChangesAsync();
+        _db.Add(new User());
+        await _db.SaveChangesAsync();
         
         return "Test";
     }
