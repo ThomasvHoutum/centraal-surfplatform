@@ -40,4 +40,19 @@ public class AuthService : IAuthService
         _db.Users.Add(user);
         await _db.SaveChangesAsync();
     }
+
+    /// <inheritdoc />
+    public async Task<bool> TryLoginUserAsync(LoginUserDto userDto)
+    {
+        // Check if a user with this email exists
+        if (!await UserEmailExistsAsync(userDto.Email))
+            throw new Exception("User with this email does not exist");
+        
+        // Check if the password is correct
+        var user = await _db.Users.FirstOrDefaultAsync(u => u.Email == userDto.Email);
+        if (!BCrypt.Net.BCrypt.Verify(userDto.Password, user.PasswordHash))
+            throw new Exception("Incorrect password!");
+
+        return true;
+    }
 }

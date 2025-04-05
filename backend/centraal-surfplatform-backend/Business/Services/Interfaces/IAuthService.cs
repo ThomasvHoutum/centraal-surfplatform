@@ -16,4 +16,11 @@ public interface IAuthService : ITransient
     /// </summary>
     /// <param name="userDto"></param>
     Task RegisterUserAsync(RegisterUserDto userDto);
+    
+    /// <summary>
+    /// Login a user
+    /// </summary>
+    /// <param name="userDto"></param>
+    /// <returns></returns>
+    Task<bool> TryLoginUserAsync(LoginUserDto userDto);
 }
