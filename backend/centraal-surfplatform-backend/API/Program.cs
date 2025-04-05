@@ -8,7 +8,6 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 
 // TODO: Dynamically register all services
-builder.Services.AddTransient<ITestService, TestService>();
 
 // Database is placed in AppData/Local/
 var dbPath = Path.Join(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "centraal-surfplatform.db");
