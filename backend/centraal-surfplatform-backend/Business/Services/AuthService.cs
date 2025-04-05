@@ -16,13 +16,13 @@ public class AuthService : IAuthService
     }
     
     /// <inheritdoc />
-    public async Task<bool> UserEmailExists(string email) => await _db.Users.AnyAsync(user => user.Email == email);
+    public async Task<bool> UserEmailExistsAsync(string email) => await _db.Users.AnyAsync(user => user.Email == email);
 
     /// <inheritdoc />
-    public async Task RegisterUser(RegisterUserDto userDto)
+    public async Task RegisterUserAsync(RegisterUserDto userDto)
     {
         // Check if a user with this email already exists
-        if (await UserEmailExists(userDto.Email))
+        if (await UserEmailExistsAsync(userDto.Email))
             throw new Exception("User with this email already exists");
         
         // Hash password

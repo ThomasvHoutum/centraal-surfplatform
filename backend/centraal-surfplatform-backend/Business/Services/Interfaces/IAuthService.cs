@@ -9,11 +9,11 @@ public interface IAuthService : ITransient
     /// </summary>
     /// <param name="email"></param>
     /// <returns></returns>
-    Task<bool> UserEmailExists(string email);
+    Task<bool> UserEmailExistsAsync(string email);
     
     /// <summary>
     /// Register a new user
     /// </summary>
     /// <param name="userDto"></param>
-    Task RegisterUser(RegisterUserDto userDto);
+    Task RegisterUserAsync(RegisterUserDto userDto);
 }

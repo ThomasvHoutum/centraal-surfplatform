@@ -22,7 +22,7 @@ public class AuthController : ControllerBase
     [ProducesResponseType(StatusCodes.Status500InternalServerError)]
     public async Task<IActionResult> Register([FromBody] RequestViewModel request)
     {
-        await _authService.RegisterUser(new RegisterUserDto
+        await _authService.RegisterUserAsync(new RegisterUserDto
         {
             Username = request.Username,
             Email = request.Email,
