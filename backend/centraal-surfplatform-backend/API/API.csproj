@@ -16,4 +16,13 @@
       <ProjectReference Include="..\Business\Business.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Compile Update="ViewModels\Auth\Register\RequestViewModel.Profile.cs">
+        <DependentUpon>RequestViewModel.cs</DependentUpon>
+      </Compile>
+      <Compile Update="ViewModels\Auth\Login\RequestViewModel.Profile.cs">
+        <DependentUpon>RequestViewModel.cs</DependentUpon>
+      </Compile>
+    </ItemGroup>
+
 </Project>

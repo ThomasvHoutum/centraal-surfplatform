@@ -49,7 +49,7 @@ public class AuthService : IAuthService
             throw new Exception("User with this email does not exist");
         
         // Check if the password is correct
-        var user = await _db.Users.FirstOrDefaultAsync(u => u.Email == userDto.Email);
+        var user = await _db.Users.FirstOrDefaultAsync(user => user.Email == userDto.Email);
         if (!BCrypt.Net.BCrypt.Verify(userDto.Password, user.PasswordHash))
             throw new Exception("Incorrect password!");
 
