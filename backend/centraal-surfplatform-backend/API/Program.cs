@@ -2,6 +2,7 @@ using Business.Database;
 using Business.Services;
 using Business.Services.Interfaces;
 using Microsoft.EntityFrameworkCore;
+using Scalar.AspNetCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -19,20 +20,18 @@ builder.Services.AddDbContext<DatabaseContext>(options =>
     options.UseSqlite($"Data Source={dbPath}");
 }, ServiceLifetime.Transient, ServiceLifetime.Transient);
 
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+// Learn more about configuring OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen(options =>
-{
-    options.CustomSchemaIds(type => type.FullName);
-});
+
+builder.Services.AddOpenApi();
 
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
-    app.UseSwagger();
-    app.UseSwaggerUI();
+    app.MapOpenApi();
+    app.MapScalarApiReference();
 }
 
 app.UseHttpsRedirection();
