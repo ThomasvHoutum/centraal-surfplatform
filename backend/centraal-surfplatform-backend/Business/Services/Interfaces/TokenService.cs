@@ -23,7 +23,7 @@ public class TokenService : ITokenService
         
         // Create the credentials
         var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtSettings["Key"]));
-        var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
+        var credentials = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
 
         // Create the token
         var token = new JwtSecurityToken(
@@ -31,7 +31,7 @@ public class TokenService : ITokenService
             audience: jwtSettings["Audience"],
             claims: claims,
             expires: DateTime.UtcNow.AddDays(1),
-            signingCredentials: creds
+            signingCredentials: credentials
         );
 
         // Return the generated token string
