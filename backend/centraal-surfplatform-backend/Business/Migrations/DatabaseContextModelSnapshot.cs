@@ -17,26 +17,15 @@ namespace Business.Migrations
             modelBuilder.HasAnnotation("ProductVersion", "9.0.3");
 
             modelBuilder.Entity("Business.Database.Models.User", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("INTEGER");
+            {
+                b.Property<int>("Id")
+                    .ValueGeneratedOnAdd()
+                    .HasColumnType("INTEGER");
 
-                    b.Property<string>("Email")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
+                b.HasKey("Id");
 
-                    b.Property<string>("PasswordHash")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("Username")
-                        .HasColumnType("TEXT");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Users");
-                });
+                b.ToTable("Users");
+            });
 #pragma warning restore 612, 618
         }
     }
