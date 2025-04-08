@@ -14,13 +14,13 @@ public interface IAuthService : ITransient
     /// <summary>
     /// Register a new user
     /// </summary>
-    /// <param name="userDto"></param>
-    Task RegisterUserAsync(RegisterUserDto userDto);
+    /// <param name="registerUserDto"></param>
+    Task<UserDto> TryRegisterUserAsync(RegisterUserDto registerUserDto);
     
     /// <summary>
     /// Login a user
     /// </summary>
-    /// <param name="userDto"></param>
+    /// <param name="loginUserDto"></param>
     /// <returns></returns>
-    Task<bool> TryLoginUserAsync(LoginUserDto userDto);
+    Task<UserDto> TryLoginUserAsync(LoginUserDto loginUserDto);
 }

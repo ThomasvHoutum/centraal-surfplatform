@@ -19,7 +19,7 @@ public class AuthService : IAuthService
     public async Task<bool> UserEmailExistsAsync(string email) => await _db.Users.AnyAsync(user => user.Email == email);
 
     /// <inheritdoc />
-    public async Task RegisterUserAsync(RegisterUserDto userDto)
+    public async Task<UserDto> TryRegisterUserAsync(RegisterUserDto userDto)
     {
         // Check if a user with this email already exists
         if (await UserEmailExistsAsync(userDto.Email))
@@ -37,12 +37,18 @@ public class AuthService : IAuthService
         };
         
         // Save user to database
-        _db.Users.Add(user);
+        var newUser = _db.Users.Add(user);
         await _db.SaveChangesAsync();
+
+        return new UserDto
+        {
+            Id = newUser.Entity.Id,
+            Role = newUser.Entity.Role
+        };
     }
 
     /// <inheritdoc />
-    public async Task<bool> TryLoginUserAsync(LoginUserDto userDto)
+    public async Task<UserDto> TryLoginUserAsync(LoginUserDto userDto)
     {
         // Check if a user with this email exists
         if (!await UserEmailExistsAsync(userDto.Email))
@@ -53,6 +59,10 @@ public class AuthService : IAuthService
         if (!BCrypt.Net.BCrypt.Verify(userDto.Password, user.PasswordHash))
             throw new Exception("Incorrect password!");
 
-        return true;
+        return new UserDto
+        {
+            Id = user.Id,
+            Role = user.Role
+        };
     }
 }
