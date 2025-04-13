@@ -3,6 +3,7 @@
 public class WeatherData
 {
     public int Id { get; set; }
+    public DateTime FetchedAt { get; set; }
     public DateTime[]? Time { get; set; }
     public double[]? Temperature { get; set; }
     public double[]? WindSpeed { get; set; }
