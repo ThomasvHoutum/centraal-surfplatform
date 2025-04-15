@@ -1,0 +1,130 @@
+/* src/MapWithBottomSheet.css */
+
+/* Hele pagina-container (relative om absolute posities te kunnen gebruiken) */
+.page-container {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Volledige schermhoogte */
+    margin: 0 auto;
+    overflow: hidden;
+    background: #fff;
+  }
+  
+  /* Header bovenaan: wit, met logo links, hamburger rechts */
+  .app-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 56px;
+    background-color: #fff;
+    z-index: 2; /* Boven de kaart */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+  }
+  
+  .logo {
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .hamburger {
+    width: 24px;
+    height: 24px;
+  }
+  
+  /* De kaart erachter (full screen, onder de header) */
+  .map-wrapper {
+    position: absolute;
+    top: 56px; /* net onder de header */
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+  }
+  
+  /* Bottom sheet die van onderen in beeld schuift */
+  .bottom-sheet {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 0; /* Standaard onzichtbaar */
+    background-color: #fff;
+    z-index: 3;
+    overflow: hidden;
+    transition: height 0.3s ease;
+    box-shadow: 0 -2px 6px rgba(0,0,0,0.15);
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+  }
+  
+  .bottom-sheet.show {
+    height: 70%; /* Hoe groot de sheet wordt als hij “open” is */
+  }
+  
+  .sheet-content {
+    padding: 16px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  
+  /* Groot grijs vlak (placeholder) */
+  .placeholder-image {
+    width: 100%;
+    height: 120px;
+    background-color: #f0f0f0;
+    margin-bottom: 16px;
+    border-radius: 8px;
+  }
+  
+  /* Titel en info */
+  .spot-title {
+    font-size: 20px;
+    margin-bottom: 8px;
+  }
+  .spot-info {
+    margin: 0 0 4px;
+  }
+  
+  /* Voorzieningen */
+  .voorzieningen-title {
+    margin: 16px 0 8px;
+  }
+  .voorzieningen-placeholder {
+    width: 100%;
+    height: 40px;
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 8px;
+  }
+  
+  /* Knop 'Meer info' */
+  .meerinfo-button {
+    margin-top: auto; /* schuif naar onderkant */
+    padding: 14px;
+    border: none;
+    background-color: #007aff;
+    color: #fff;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Sluitknop (optioneel) */
+  .close-button {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    background: none;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
