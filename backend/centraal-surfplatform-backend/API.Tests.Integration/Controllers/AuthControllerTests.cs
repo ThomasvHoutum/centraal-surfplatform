@@ -35,7 +35,7 @@ public class AuthControllerTests : IClassFixture<CustomWebApplicationFactory>
         [Fact]
         public async Task Login_ReturnsToken_OnSuccessfulLogin()
         {
-            // Arrange: First register a new user.
+            // Arrange: First register a new user
             var registerRequest = new ViewModels.Auth.Register.RequestViewModel
             {
                 Username = "testuser",
@@ -45,7 +45,7 @@ public class AuthControllerTests : IClassFixture<CustomWebApplicationFactory>
             var registerResponse = await _client.PostAsJsonAsync("/Auth/register", registerRequest);
             registerResponse.EnsureSuccessStatusCode();
 
-            // Arrange: Prepare a login request with the same email/password.
+            // Arrange: Prepare a login request with the same email/password
             var loginRequest = new ViewModels.Auth.Login.RequestViewModel
             {
                 Email = registerRequest.Email,
@@ -75,7 +75,7 @@ public class AuthControllerTests : IClassFixture<CustomWebApplicationFactory>
         [Fact]
         public async Task MemberOnly_ReturnsOk_WhenAuthenticatedWithMemberRole()
         {
-            // Arrange: Register a user that will receive a role of "Member".
+            // Arrange: Register a user that will receive a role of "Member"
             var registerRequest = new ViewModels.Auth.Register.RequestViewModel
             {
                 Username = "memberUser",
