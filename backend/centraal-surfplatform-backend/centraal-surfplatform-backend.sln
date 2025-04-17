@@ -4,6 +4,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "API\API.csproj", "{A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business", "Business\Business.csproj", "{86C347DF-382D-4EA3-9798-118F31EC96C3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business.Tests.Unit", "Business.Tests.Unit\Business.Tests.Unit.csproj", "{77649877-ED17-4865-B728-3C002222FB51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API.Tests.Integration", "API.Tests.Integration\API.Tests.Integration.csproj", "{5487DAF0-F00A-4F13-BEE3-ECF453FCA162}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +22,13 @@ Global
 		{86C347DF-382D-4EA3-9798-118F31EC96C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{86C347DF-382D-4EA3-9798-118F31EC96C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{86C347DF-382D-4EA3-9798-118F31EC96C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77649877-ED17-4865-B728-3C002222FB51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77649877-ED17-4865-B728-3C002222FB51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77649877-ED17-4865-B728-3C002222FB51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77649877-ED17-4865-B728-3C002222FB51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5487DAF0-F00A-4F13-BEE3-ECF453FCA162}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5487DAF0-F00A-4F13-BEE3-ECF453FCA162}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5487DAF0-F00A-4F13-BEE3-ECF453FCA162}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5487DAF0-F00A-4F13-BEE3-ECF453FCA162}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

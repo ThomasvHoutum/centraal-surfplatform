@@ -1,19 +1,30 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
     <PropertyGroup>
-        <TargetFramework>net8.0</TargetFramework>
+        <TargetFramework>net9.0</TargetFramework>
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
         <InvariantGlobalization>true</InvariantGlobalization>
     </PropertyGroup>
 
     <ItemGroup>
+        <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="9.0.3" />
+        <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.3" />
         <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="9.0.3" />
-        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0"/>
+        <PackageReference Include="Scalar.AspNetCore" Version="2.1.7" />
     </ItemGroup>
 
     <ItemGroup>
       <ProjectReference Include="..\Business\Business.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Update="ViewModels\Auth\Register\RequestViewModel.Profile.cs">
+        <DependentUpon>RequestViewModel.cs</DependentUpon>
+      </Compile>
+      <Compile Update="ViewModels\Auth\Login\RequestViewModel.Profile.cs">
+        <DependentUpon>RequestViewModel.cs</DependentUpon>
+      </Compile>
     </ItemGroup>
 
 </Project>
