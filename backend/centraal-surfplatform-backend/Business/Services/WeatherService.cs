@@ -26,7 +26,7 @@ public class WeatherService : IWeatherService
         }
 
         var data = await _weatherProviders["OpenMeteo"].GetWeatherDataAsync(latitude, longitude);
-        data.FetchedAt = DateTime.Now;
+        data.FetchedAt = DateTime.UtcNow;
 
         _db.WeatherData.Add(data);
         await _db.SaveChangesAsync();
@@ -36,7 +36,7 @@ public class WeatherService : IWeatherService
 
     private async Task<WeatherData?> GetCachedWeatherDataAsync(double latitude, double longitude)
     {
-        var oneHourAgo = DateTime.Now.AddHours(-1);
+        var oneHourAgo = DateTime.UtcNow.AddHours(-1);
 
         double latDelta = 2.0 / 111.0;
         double lonDelta = 2.0 / (111.0 * Math.Cos(latitude * Math.PI / 180.0));
