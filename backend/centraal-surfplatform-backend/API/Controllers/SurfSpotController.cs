@@ -14,7 +14,19 @@ public class SurfSpotController : ControllerBase
     {
         _surfSpotService = surfSpotService;
     }
-
+    
+    [HttpGet("test")]
+    public IActionResult GetSurfSpotsTestData()
+    {
+        List<SurfSpot> testSurfSpots = new List<SurfSpot>();
+        testSurfSpots.Add(new SurfSpot{Id = 1, Name = "Scheveningen", Latitude = 52.1029, Longitude = 4.2695});
+        testSurfSpots.Add(new SurfSpot{Id = 2, Name = "Zandvoort", Latitude = 52.3749, Longitude = 	4.5295});
+        testSurfSpots.Add(new SurfSpot{Id = 3, Name = "Wijk aan Zee", Latitude = 52.4937, Longitude = 4.6111});
+        testSurfSpots.Add(new SurfSpot{Id = 4, Name = "IJmuiden", Latitude = 52.4516, Longitude = 4.5728});
+        testSurfSpots.Add(new SurfSpot{Id = 5, Name = "Hoek van Holland", Latitude = 51.9780, Longitude = 4.1190});
+        return Ok(testSurfSpots);
+    }
+    
     [HttpGet]
     public async Task<IActionResult> GetAllSurfSpotsAsync()
     {
