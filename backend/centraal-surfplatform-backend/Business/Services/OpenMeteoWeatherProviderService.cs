@@ -26,7 +26,9 @@ public class OpenMeteoWeatherProviderService : IWeatherProviderService
         {
             PropertyNamingPolicy = JsonNamingPolicy.CamelCase,
         };
+        
         var data = JsonSerializer.Deserialize<OpenMeteoResponseDto>(json, options);
+
         if (data == null)
         {
             throw new Exception("Invalid response from OpenMeteo API");
