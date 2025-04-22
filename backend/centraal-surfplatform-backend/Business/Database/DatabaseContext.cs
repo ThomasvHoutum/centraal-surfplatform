@@ -7,4 +7,5 @@ public class DatabaseContext(DbContextOptions<DatabaseContext> options) : DbCont
 {
     public DbSet<User> Users { get; set; }
     public DbSet<SurfSpot> SurfSpots { get; set; }
+    public DbSet<WeatherData> WeatherData { get; set; }
 }
