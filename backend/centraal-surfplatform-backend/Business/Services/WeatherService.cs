@@ -15,8 +15,26 @@ public class WeatherService : IWeatherService
         _db = db;
         _weatherProviders = weatherProviders;
     }
-    
+
     public async Task<WeatherData> GetWeatherDataAsync(double latitude, double longitude)
+    {
+        var cachedData = await GetCachedWeatherDataAsync(latitude, longitude);
+
+        if (cachedData != null)
+        {
+            return cachedData;
+        }
+
+        var data = await _weatherProviders["OpenMeteo"].GetWeatherDataAsync(latitude, longitude);
+        data.FetchedAt = DateTime.Now;
+
+        _db.WeatherData.Add(data);
+        await _db.SaveChangesAsync();
+
+        return data;
+    }
+
+    private async Task<WeatherData?> GetCachedWeatherDataAsync(double latitude, double longitude)
     {
         var oneHourAgo = DateTime.Now.AddHours(-1);
 
@@ -28,23 +46,10 @@ public class WeatherService : IWeatherService
         double minLon = longitude - lonDelta;
         double maxLon = longitude + lonDelta;
 
-        var cachedData = await _db.WeatherData
+        return await _db.WeatherData
             .Where(w => w.FetchedAt >= oneHourAgo &&
                         w.Latitude >= minLat && w.Latitude <= maxLat &&
                         w.Longitude >= minLon && w.Longitude <= maxLon)
             .FirstOrDefaultAsync();
-
-        if (cachedData != null)
-        {
-            return cachedData;
-        }
-        
-        var data = await _weatherProviders["OpenMeteo"].GetWeatherDataAsync(latitude, longitude);
-        
-        data.FetchedAt = DateTime.Now;
-        _db.WeatherData.Add(data);
-        await _db.SaveChangesAsync();
-        
-        return data;
     }
 }
