@@ -35,18 +35,10 @@ public class SurfSpotService : ISurfSpotService
         return surfSpot;
     }
 
-    public async Task CreateSurfSpotAsync(CreateSurfSpotDto dto)
+    public async Task CreateSurfSpotAsync(SurfSpot surfSpot)
     {
         try
         {
-            // map dto to SurfSpot object
-            var surfSpot = new SurfSpot
-            {
-                Name = dto.Name,
-                Latitude = dto.Latitude,
-                Longitude = dto.Longitude
-            };
-            
             // add to db and save changes
             _db.SurfSpots.Add(surfSpot);
             await _db.SaveChangesAsync();

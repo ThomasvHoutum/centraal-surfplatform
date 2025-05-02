@@ -58,7 +58,15 @@ public class SurfSpotController : ControllerBase
     {
         try
         {
-            await _surfSpotService.CreateSurfSpotAsync(dto);
+            // map dto to SurfSpot object
+            var surfSpot = new SurfSpot
+            {
+                Name = dto.Name,
+                Latitude = dto.Latitude,
+                Longitude = dto.Longitude
+            };
+            
+            await _surfSpotService.CreateSurfSpotAsync(surfSpot);
             return Ok(new { message = "Succesfully created new surf spot" });
         }
         catch (Exception ex)
