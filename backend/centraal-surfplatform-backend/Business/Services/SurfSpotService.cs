@@ -49,31 +49,31 @@ public class SurfSpotService : ISurfSpotService
         }
     }
 
-    public async Task UpdateSurfSpotAsync(int id, UpdateSurfSpotDto dto)
+    public async Task UpdateSurfSpotAsync(SurfSpot updatedSurfSpot)
     {
         try
         {
-            var surfSpot = await _db.SurfSpots.FindAsync(id);
-            if (surfSpot == null)
+            var currentSurfSpot = await _db.SurfSpots.FindAsync(updatedSurfSpot.Id);
+            if (currentSurfSpot == null)
             {
-                throw new KeyNotFoundException($"No surf spot with id {id} found");
+                throw new KeyNotFoundException($"No surf spot with id {updatedSurfSpot.Id} found");
             }
             
             // only update name if a new value is given
-            if (dto.Name != null)
+            if (updatedSurfSpot.Name != null)
             {
-                surfSpot.Name = dto.Name;
+                currentSurfSpot.Name = updatedSurfSpot.Name;
             }
             
             // always update coordinates
-            surfSpot.Latitude = dto.Latitude;
-            surfSpot.Longitude = dto.Longitude;
+            currentSurfSpot.Latitude = updatedSurfSpot.Latitude;
+            currentSurfSpot.Longitude = updatedSurfSpot.Longitude;
             
             await _db.SaveChangesAsync();
         }
         catch (Exception ex)
         {
-            throw new Exception($"An error occurred while updating surf spot with id {id}", ex);
+            throw new Exception($"An error occurred while updating surf spot with id {updatedSurfSpot.Id}", ex);
         }
     }
 

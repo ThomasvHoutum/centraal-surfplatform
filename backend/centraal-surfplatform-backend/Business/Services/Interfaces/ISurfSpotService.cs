@@ -8,6 +8,6 @@ public interface ISurfSpotService
     Task<IEnumerable<SurfSpot>> GetAllSurfSpotsAsync();
     Task<SurfSpot> GetSurfSpotByIdAsync(int id);
     Task CreateSurfSpotAsync(SurfSpot surfSpot);
-    Task UpdateSurfSpotAsync(int id, UpdateSurfSpotDto dto);
+    Task UpdateSurfSpotAsync(SurfSpot updatedSurfSpot);
     Task DeleteSurfSpotAsync(int id);
 }

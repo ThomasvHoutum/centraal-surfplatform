@@ -80,7 +80,16 @@ public class SurfSpotController : ControllerBase
     {
         try
         {
-            await _surfSpotService.UpdateSurfSpotAsync(id, dto);
+            // map dto to SurfSpot object
+            var surfSpot = new SurfSpot
+            {
+                Id = id,
+                Name = dto.Name,
+                Latitude = dto.Latitude,
+                Longitude = dto.Longitude
+            };
+            
+            await _surfSpotService.UpdateSurfSpotAsync(surfSpot);
             return Ok(new { message = $"Succesfully updated surf spot with id {id}" });
         }
         catch (Exception ex)
