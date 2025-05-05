@@ -9,6 +9,22 @@ builder.Services.AddControllers();
 
 // TODO: Dynamically register all services
 builder.Services.AddTransient<ITestService, TestService>();
+builder.Services.AddScoped<ISurfSpotService, SurfSpotService>();
+builder.Services.AddHttpClient<OpenMeteoWeatherProviderService>();
+builder.Services.AddScoped<IWeatherProviderService, OpenMeteoWeatherProviderService>();
+builder.Services.AddScoped<IWeatherService>(provider =>
+{
+    var openMeteo = provider.GetRequiredService<OpenMeteoWeatherProviderService>();
+
+    var providers = new Dictionary<string, IWeatherProviderService>
+    {
+        ["OpenMeteo"] = openMeteo
+    };
+    
+    var dbContext = provider.GetRequiredService<DatabaseContext>();
+
+    return new WeatherService(dbContext, providers);
+});
 
 // Database is placed in AppData/Local/
 var dbPath = Path.Join(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "centraal-surfplatform.db");
