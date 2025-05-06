@@ -14,15 +14,12 @@ public class AuthService : IAuthService
     {
         _db = db;
     }
-    
-    /// <inheritdoc />
-    public async Task<bool> UserEmailExistsAsync(string email) => await _db.Users.AnyAsync(user => user.Email == email);
 
     /// <inheritdoc />
     public async Task<UserDto> TryRegisterUserAsync(RegisterUserDto userDto)
     {
         // Check if a user with this email already exists
-        if (await UserEmailExistsAsync(userDto.Email))
+        if (await _db.Users.AnyAsync(user => user.Email == userDto.Email))
             throw new Exception("User with this email already exists");
         
         // Hash password
@@ -50,12 +47,12 @@ public class AuthService : IAuthService
     /// <inheritdoc />
     public async Task<UserDto> TryLoginUserAsync(LoginUserDto userDto)
     {
-        // Check if a user with this email exists
-        if (!await UserEmailExistsAsync(userDto.Email))
-            throw new Exception("User with this email does not exist");
-        
         // Check if the password is correct
         var user = await _db.Users.FirstOrDefaultAsync(user => user.Email == userDto.Email);
+        
+        if (user == null)
+            throw new Exception("User not found!");
+        
         if (!BCrypt.Net.BCrypt.Verify(userDto.Password, user.PasswordHash))
             throw new Exception("Incorrect password!");
 
