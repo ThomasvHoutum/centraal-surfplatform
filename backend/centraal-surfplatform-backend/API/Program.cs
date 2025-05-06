@@ -45,7 +45,6 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
 builder.Services.AddControllers();
 
 // TODO: Dynamically register all services
-builder.Services.AddTransient<ITestService, TestService>();
 builder.Services.AddScoped<ISurfSpotService, SurfSpotService>();
 builder.Services.AddHttpClient<OpenMeteoWeatherProviderService>();
 builder.Services.AddScoped<IWeatherProviderService, OpenMeteoWeatherProviderService>();
