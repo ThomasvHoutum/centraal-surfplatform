@@ -9,6 +9,17 @@ using Scalar.AspNetCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowReactDev", policy =>
+    {
+        policy
+            .WithOrigins("http://localhost:3000")   
+            .AllowAnyHeader()
+            .AllowAnyMethod();
+    });
+});
+
 var configuration = builder.Configuration;
 
 // Retrieve JWT settings
@@ -34,6 +45,23 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
 builder.Services.AddControllers();
 
 // TODO: Dynamically register all services
+builder.Services.AddTransient<ITestService, TestService>();
+builder.Services.AddScoped<ISurfSpotService, SurfSpotService>();
+builder.Services.AddHttpClient<OpenMeteoWeatherProviderService>();
+builder.Services.AddScoped<IWeatherProviderService, OpenMeteoWeatherProviderService>();
+builder.Services.AddScoped<IWeatherService>(provider =>
+{
+    var openMeteo = provider.GetRequiredService<OpenMeteoWeatherProviderService>();
+
+    var providers = new Dictionary<string, IWeatherProviderService>
+    {
+        ["OpenMeteo"] = openMeteo
+    };
+    
+    var dbContext = provider.GetRequiredService<DatabaseContext>();
+
+    return new WeatherService(dbContext, providers);
+});
 builder.Services.AddTransient<IAuthService, AuthService>();
 builder.Services.AddTransient<ITokenService, TokenService>();
 
@@ -52,6 +80,8 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddOpenApi();
 
 var app = builder.Build();
+
+app.UseCors("AllowReactDev");
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

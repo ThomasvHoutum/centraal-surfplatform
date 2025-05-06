@@ -1,0 +1,15 @@
+.header-box {
+    width: 100%;
+    max-width: 400px;
+    height: 90vh;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+
+.header-image {
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    padding: 2rem;
+}
