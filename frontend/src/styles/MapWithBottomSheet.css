@@ -1,130 +1,189 @@
-/* src/MapWithBottomSheet.css */
+:root {
+  --accent: #007aff;
+  --bg: #ffffff;
+  --text: #1a1a1a;
+  --radius: 16px;
+}
 
-/* Hele pagina-container (relative om absolute posities te kunnen gebruiken) */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+  color: var(--text);
+  background: var(--bg);
+}
+
 .page-container {
-    position: relative;
-    width: 100%;
-    height: 100vh; /* Volledige schermhoogte */
-    margin: 0 auto;
-    overflow: hidden;
-    background: #fff;
-  }
-  
-  /* Header bovenaan: wit, met logo links, hamburger rechts */
-  .app-header {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 56px;
-    background-color: #fff;
-    z-index: 2; /* Boven de kaart */
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 16px;
-    box-shadow: 0 1px 2px rgba(0,0,0,0.15);
-  }
-  
-  .logo {
-    font-weight: bold;
-    font-size: 18px;
-  }
-  
-  .hamburger {
-    width: 24px;
-    height: 24px;
-  }
-  
-  /* De kaart erachter (full screen, onder de header) */
-  .map-wrapper {
-    position: absolute;
-    top: 56px; /* net onder de header */
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 1;
-  }
-  
-  /* Bottom sheet die van onderen in beeld schuift */
-  .bottom-sheet {
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    height: 0; /* Standaard onzichtbaar */
-    background-color: #fff;
-    z-index: 3;
-    overflow: hidden;
-    transition: height 0.3s ease;
-    box-shadow: 0 -2px 6px rgba(0,0,0,0.15);
-    border-top-left-radius: 16px;
-    border-top-right-radius: 16px;
-  }
-  
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.app-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 56px;
+  background: var(--bg);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 16px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12);
+  z-index: 5;
+}
+
+.logo {
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: -0.2px;
+}
+
+.hamburger {
+  background: none;
+  border: none;
+  font-size: 24px;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.map-wrapper {
+  position: absolute;
+  top: 56px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+.bottom-sheet {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 0;
+  background: var(--bg);
+  border-top-left-radius: var(--radius);
+  border-top-right-radius: var(--radius);
+  box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  transition: height 0.3s ease;
+  z-index: 4;
+}
+
+.bottom-sheet.show {
+  height: 65%; 
+}
+
+@media (min-width: 768px) {
   .bottom-sheet.show {
-    height: 70%; /* Hoe groot de sheet wordt als hij “open” is */
+    height: 40%;
   }
-  
-  .sheet-content {
-    padding: 16px;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    position: relative;
+}
+
+.sheet-content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 16px;
+}
+
+.spot-title,
+.moreinfo-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0 0 12px 0;
+}
+
+.title-icon,
+.spot-info svg,
+.weather-details li svg {
+  color: var(--accent);
+}
+
+.description {
+  font-style: italic;
+  opacity: 0.9;
+}
+
+.meerinfo-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  margin-top: auto;
+  padding: 12px 16px;
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  border-radius: var(--radius);
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.meerinfo-button:hover {
+  background: #0060d7;
+}
+
+.close-button {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 6px;
+  line-height: 1;
+}
+
+.close-button svg {
+  pointer-events: none;
+}
+
+.quick-stats {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px 16px;
+  font-size: 15px;
+}
+
+.spot-info {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin: 0;
+}
+
+@media (max-width: 400px) {
+  .quick-stats {
+    grid-template-columns: 1fr;
   }
-  
-  /* Groot grijs vlak (placeholder) */
-  .placeholder-image {
-    width: 100%;
-    height: 120px;
-    background-color: #f0f0f0;
-    margin-bottom: 16px;
-    border-radius: 8px;
-  }
-  
-  /* Titel en info */
-  .spot-title {
-    font-size: 20px;
-    margin-bottom: 8px;
-  }
-  .spot-info {
-    margin: 0 0 4px;
-  }
-  
-  /* Voorzieningen */
-  .voorzieningen-title {
-    margin: 16px 0 8px;
-  }
-  .voorzieningen-placeholder {
-    width: 100%;
-    height: 40px;
-    background-color: #f8f8f8;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    margin-bottom: 8px;
-  }
-  
-  /* Knop 'Meer info' */
-  .meerinfo-button {
-    margin-top: auto; /* schuif naar onderkant */
-    padding: 14px;
-    border: none;
-    background-color: #007aff;
-    color: #fff;
-    border-radius: 8px;
-    font-size: 16px;
-    cursor: pointer;
-  }
-  
-  /* Sluitknop (optioneel) */
-  .close-button {
-    position: absolute;
-    top: 16px;
-    right: 16px;
-    background: none;
-    border: none;
-    font-size: 18px;
-    cursor: pointer;
-  }
-  
+}
+
+.loading,
+.error {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(255, 255, 255, 0.9);
+  padding: 12px 16px;
+  border-radius: var(--radius);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.12);
+  font-size: 15px;
+  text-align: center;
+}
+
+.error {
+  color: #d92d20;
+}
