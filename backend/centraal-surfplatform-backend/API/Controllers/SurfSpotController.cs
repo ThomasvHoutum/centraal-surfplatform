@@ -99,11 +99,11 @@ public class SurfSpotController : ControllerBase
     [HttpPost("import-file")]
     public async Task<IActionResult> ImportSurfSpotsFromFile(IFormFile file)
     {
+        if (file == null || file.Length == 0)
+            return BadRequest("No file uploaded");
+        
         try
         {
-            if (file == null || file.Length == 0)
-                return BadRequest("No file uploaded");
-            
             using var reader  = new StreamReader(file.OpenReadStream());
             var json = await reader.ReadToEndAsync();
             
@@ -112,7 +112,7 @@ public class SurfSpotController : ControllerBase
                 PropertyNameCaseInsensitive = true
             });
 
-            if (geoJson.Features == null || geoJson.Features.Count == 0)
+            if (geoJson == null || geoJson.Features.Count == 0)
                 return BadRequest("No surf spots found in the json file");
 
             var surfSpots = geoJson.Features
