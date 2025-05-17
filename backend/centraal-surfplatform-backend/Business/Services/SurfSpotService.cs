@@ -35,20 +35,20 @@ public class SurfSpotService : ISurfSpotService
         return surfSpot;
     }
 
-    public async Task CreateSurfSpotAsync(CreateSurfSpotDto dto)
+    public async Task CreateSurfSpotAsync(IEnumerable<CreateSurfSpotDto> dtos)
     {
-        try
+        // map dtos to SurfSpot object and create list
+        var surfSpots = dtos.Select(dto => new SurfSpot
         {
-            // map dto to SurfSpot object
-            var surfSpot = new SurfSpot
-            {
-                Name = dto.Name,
-                Latitude = dto.Latitude,
-                Longitude = dto.Longitude
-            };
+            Name = dto.Name,
+            Latitude = dto.Latitude,
+            Longitude = dto.Longitude
+        }).ToList();
             
+        try
+        {   
             // add to db and save changes
-            _db.SurfSpots.Add(surfSpot);
+            _db.SurfSpots.AddRange(surfSpots);
             await _db.SaveChangesAsync();
         }
         catch (Exception ex)

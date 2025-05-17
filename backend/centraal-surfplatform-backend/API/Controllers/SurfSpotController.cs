@@ -59,7 +59,7 @@ public class SurfSpotController : ControllerBase
     {
         try
         {
-            await _surfSpotService.CreateSurfSpotAsync(dto);
+            await _surfSpotService.CreateSurfSpotAsync(new[] { dto });
             return Ok(new { message = "Succesfully created new surf spot" });
         }
         catch (Exception ex)
@@ -124,10 +124,8 @@ public class SurfSpotController : ControllerBase
                     Longitude = s.Geometry.Coordinates[0]
                 }).ToList();
 
-            foreach (var surfSpot in surfSpots)
-            {
-                await _surfSpotService.CreateSurfSpotAsync(surfSpot);
-            }
+
+            await _surfSpotService.CreateSurfSpotAsync(surfSpots);
             
             return Ok(new { message = $"Successfully imported {surfSpots.Count} surf spots"});
 
