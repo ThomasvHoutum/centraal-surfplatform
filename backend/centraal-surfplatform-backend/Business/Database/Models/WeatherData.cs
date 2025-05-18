@@ -9,6 +9,9 @@ public class WeatherData
     public double[]? WindSpeed { get; set; }
     public double[]? WindDirection { get; set; }
     public double[]? WaveHeight { get; set; }
+    public double[]? WaveDirection { get; set; }
+    public double[]? WavePeriod { get; set; }
+    public double[]? WaterTemperature { get; set; }
     public double? Latitude { get; set; }
     public double? Longitude { get; set; }
     
