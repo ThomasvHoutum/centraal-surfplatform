@@ -127,7 +127,7 @@ public class SurfSpotController : ControllerBase
 
             await _surfSpotService.CreateSurfSpotAsync(surfSpots);
             
-            return Ok(new { message = $"Successfully imported {surfSpots.Count} surf spots"});
+            return Ok(new { message = $"Successfully imported surf spots"});
 
         }
         catch (Exception ex)
