@@ -4,17 +4,17 @@ namespace Business.Services.Models.WeatherData;
 
 public class OpenMeteoWaterHourlyDto
 {
-    public string[] Time { get; set; } = [];
-        
+    public List<string> Time { get; set; } = new();
+
     [JsonPropertyName("wave_height")]
-    public double[]? WaveHeight { get; set; } = [];
-    
+    public List<double?> WaveHeight { get; set; } = new();
+
     [JsonPropertyName("wave_direction")]
-    public double[]? WaveDirection { get; set; } = [];
-    
+    public List<double?> WaveDirection { get; set; } = new();
+
     [JsonPropertyName("wave_period")]
-    public double[]? WavePeriod { get; set; } = [];
+    public List<double?> WavePeriod { get; set; } = new();
 
     [JsonPropertyName("sea_surface_temperature")]
-    public double[]? SeaSurfaceTemperature { get; set; } = [];
+    public List<double?> SeaSurfaceTemperature { get; set; } = new();
 }

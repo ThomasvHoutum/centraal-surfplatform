@@ -32,10 +32,20 @@ public class OpenMeteoWaterProviderService : IWeatherProviderService
             Latitude = data.Latitude,
             Longitude = data.Longitude,
             Time = data.Hourly.Time.Select(DateTime.Parse).ToArray(),
-            WaveHeight = data.Hourly.WaveHeight,
-            WaveDirection = data.Hourly.WaveDirection,
-            WavePeriod = data.Hourly.WaveDirection,
-            WaterTemperature = data.Hourly.SeaSurfaceTemperature
+            WaveHeight = data.Hourly.WaveHeight.TrueForAll(x => x == null) 
+                ? null 
+                : data.Hourly.WaveHeight.Select(x => x ?? 0).ToArray(),
+            WaveDirection = data.Hourly.WaveDirection.TrueForAll(x => x == null) 
+                ? null 
+                : data.Hourly.WaveDirection.Select(x => x ?? 0).ToArray(),
+            WavePeriod = data.Hourly.WavePeriod.TrueForAll(x => x == null) 
+                ? null 
+                : data.Hourly.WavePeriod.Select(x => x ?? 0).ToArray(),
+            WaterTemperature = data.Hourly.SeaSurfaceTemperature.TrueForAll(x => x == null) 
+                ? null 
+                : data.Hourly.SeaSurfaceTemperature.Select(x => x ?? 0).ToArray()
         };
+
     }
+
 }
