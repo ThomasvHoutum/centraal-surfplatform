@@ -1,17 +1,62 @@
 import React from 'react';
-import AppNavbar from '../components/Navbar';
-import HeaderSection from '../components/HeaderSection';
+import { Container, Row, Col, Button } from 'react-bootstrap';
+import { FaBars } from 'react-icons/fa';
+import { useNavigate } from 'react-router-dom';
+import heroImg from '../assets/images/hero.jpg';
+import zandvoortImg from '../assets/images/zandvoort.jpg';
+import hoekImg from '../assets/images/hoek-van-holland.jpg';
+import scheveningenImg from '../assets/images/scheveningen.jpg';
+import './Home.css';
 
+const spots = [
+  { name: 'Zandvoort', img: zandvoortImg, subtitle: 'Condities' },
+  { name: 'Hoek van Holland', img: hoekImg, subtitle: 'Condities' },
+  { name: 'Scheveningen', img: scheveningenImg, subtitle: 'Condities' },
+];
 
-const Home = () => {
+export default function Home() {
+  const navigate = useNavigate();
+
   return (
-    <>
-      <AppNavbar />
-      <div className="d-flex justify-content-center">
-        <HeaderSection />
-      </div>
-    </>
-  );
-};
+    <div className="home">
+      <div className="hero">
+        <button className="hamburger">
+          <FaBars size={24} />
+        </button>
 
-export default Home;
+        <img src={heroImg} alt="Windsurfer" className="hero-img" />
+        <div className="fade" />
+
+        <h1 className="hero-title">WAAR SURF JIJ?</h1>
+
+        <Button
+          className="discover-btn"
+          onClick={() => navigate('/searchmap')}
+        >
+          ONTDEK JE SPOT
+        </Button>
+      </div>
+
+      <Container className="spots-section">
+        <h2 className="spots-heading">Populaire Spots</h2>
+        <Row className="g-3">
+          {spots.map((spot) => (
+            <Col key={spot.name} xs={12} sm={6} md={4}>
+              <div className="spot-item d-flex align-items-center">
+                <img
+                  src={spot.img}
+                  alt={spot.name}
+                  className="spot-thumb"
+                />
+                <div className="spot-info ms-3">
+                  <div className="spot-name">{spot.name}</div>
+                  <div className="spot-sub">{spot.subtitle}</div>
+                </div>
+              </div>
+            </Col>
+          ))}
+        </Row>
+      </Container>
+    </div>
+  );
+}

@@ -1,0 +1,155 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.home {
+  font-family: 'Helvetica Neue', sans-serif;
+  background: #fff;
+  color: #333;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.hero {
+  position: relative;
+  width: 100%;
+  height: 60vh;               
+  overflow: hidden;
+}
+
+.hamburger {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  background: transparent;
+  border: none;
+  z-index: 10;
+  color: #fff;
+}
+
+.hero-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: relative;
+  z-index: 5;
+}
+
+.fade {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40%;
+  background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, #fff 100%);
+  z-index: 6;
+}
+
+
+.hero-title {
+  position: absolute;
+  bottom: 30%;             
+  left: 50%;                
+  transform: translateX(-50%);
+  width: 80%;               
+  white-space: nowrap;      
+  text-align: center;     
+  margin: 0;
+  padding: 4px 0;
+  background: linear-gradient(
+    90deg,
+    rgba(255,102,0,0.8) 0%,
+    rgba(255,102,0,0) 100%
+  );
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.6);
+  z-index: 7;
+}
+
+
+
+.discover-btn {
+  position: absolute;
+  bottom: 20%;                
+  left: 50%;
+  transform: translateX(-50%);
+  width: calc(100% - 32px);  
+  max-width: 280px;
+  background-color: #ff6600;   
+  border: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 12px 0;
+  border-radius: 6px;
+  z-index: 7;
+}
+
+.spots-section {
+  padding: 24px 16px;
+}
+
+.spots-heading {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #2e3192;
+  margin-bottom: 16px;
+}
+
+.spot-item {
+  background-color: #eef1f7;
+  border-radius: 12px;
+  padding: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.spot-thumb {
+  width: 60px;
+  height: 60px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.spot-info .spot-name {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #222;
+}
+
+.spot-info .spot-sub {
+  font-size: 0.85rem;
+  color: #666;
+}
+
+@media (min-width: 992px) {
+  .hero {
+    height: 80vh;
+  }
+  .hero-title {
+    font-size: 2.5rem;
+    top: 40px;
+    left: 40px;
+  }
+  .discover-btn {
+    font-size: 1.1rem;
+    padding: 16px 0;
+    bottom: 18%;
+  }
+  .spots-section {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  .spot-thumb {
+    width: 80px;
+    height: 80px;
+  }
+  .spot-info .spot-name {
+    font-size: 1.1rem;
+  }
+  .spot-info .spot-sub {
+    font-size: 0.9rem;
+  }
+}
