@@ -1,3 +1,4 @@
+using System.Text.Json;
 using Business.Database.Models;
 using Business.Services.Interfaces;
 using Business.Services.Models.SurfSpotService;
@@ -59,7 +60,7 @@ public class SurfSpotController : ControllerBase
     {
         try
         {
-            await _surfSpotService.CreateSurfSpotAsync(dto);
+            await _surfSpotService.CreateSurfSpotAsync(new[] { dto });
             return Ok(new { message = "Succesfully created new surf spot" });
         }
         catch (Exception ex)
@@ -93,6 +94,46 @@ public class SurfSpotController : ControllerBase
         catch (Exception ex)
         {
             return StatusCode(500, new { message = $"An error occurred while deleting the surf spot with id {id}", error = ex.Message });
+        }
+    }
+
+    [HttpPost("import-file")]
+    public async Task<IActionResult> ImportSurfSpotsFromFile(IFormFile file)
+    {
+        if (file == null || file.Length == 0)
+            return BadRequest("No file uploaded");
+        
+        try
+        {
+            using var reader  = new StreamReader(file.OpenReadStream());
+            var json = await reader.ReadToEndAsync();
+            
+            var geoJson = JsonSerializer.Deserialize<SurfSpotGeoJsonDto>(json, new JsonSerializerOptions
+            {
+                PropertyNameCaseInsensitive = true
+            });
+
+            if (geoJson == null || geoJson.Features.Count == 0)
+                return BadRequest("No surf spots found in the json file");
+
+            var surfSpots = geoJson.Features
+                .Where(s => s.Properties.Icon == "windsurfing.png") // use icon name to filter out the windsurfing locations
+                .Select(s => new CreateSurfSpotDto
+                {
+                    Name = s.Properties.MarkerName,
+                    Latitude = s.Geometry.Coordinates[1], // GeoJSON uses [lon, lat]
+                    Longitude = s.Geometry.Coordinates[0]
+                }).ToList();
+
+
+            await _surfSpotService.CreateSurfSpotAsync(surfSpots);
+            
+            return Ok(new { message = $"Successfully imported surf spots"});
+
+        }
+        catch (Exception ex)
+        {
+            return StatusCode(500, new { message = "Error importing from file", error = ex.Message });
         }
     }
 }

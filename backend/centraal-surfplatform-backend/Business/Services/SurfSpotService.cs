@@ -35,26 +35,48 @@ public class SurfSpotService : ISurfSpotService
         return surfSpot;
     }
 
-    public async Task CreateSurfSpotAsync(CreateSurfSpotDto dto)
+    public async Task CreateSurfSpotAsync(IEnumerable<CreateSurfSpotDto> dtos)
     {
+        // map dtos to SurfSpot object and create list
+        var surfSpots = dtos.Select(dto => new SurfSpot
+        {
+            Name = dto.Name,
+            Latitude = dto.Latitude,
+            Longitude = dto.Longitude
+        }).ToList();
+        
+        // create surf spot only if it does not already exist
+        /*
+         * possible risk: makes a db call for every object in the list, which could be a lot of calls.
+         * However, normally only one object at a time is passed to the function, so only one
+         * db call to check for existence is done.
+         * Only when importing from a file, which is only done to seed the database, a lot of db
+         * calls are made.
+         */
         try
         {
-            // map dto to SurfSpot object
-            var surfSpot = new SurfSpot
+            foreach (var surfSpot in surfSpots)
             {
-                Name = dto.Name,
-                Latitude = dto.Latitude,
-                Longitude = dto.Longitude
-            };
-            
-            // add to db and save changes
-            _db.SurfSpots.Add(surfSpot);
+                if (!await SurfSpotExists(surfSpot))
+                {
+                    _db.SurfSpots.Add(surfSpot);
+                }
+            }
             await _db.SaveChangesAsync();
         }
         catch (Exception ex)
         {
-            throw new Exception(ex.Message);
+            throw new Exception("Encountered an error while creating surf spot", ex);
         }
+    }
+
+    private async Task<bool> SurfSpotExists(SurfSpot surfSpot)
+    {
+        return await _db.SurfSpots.AnyAsync(
+            s =>
+            s.Name == surfSpot.Name &&
+            s.Longitude == surfSpot.Longitude &&
+            s.Latitude == surfSpot.Latitude);
     }
 
     public async Task UpdateSurfSpotAsync(int id, UpdateSurfSpotDto dto)
