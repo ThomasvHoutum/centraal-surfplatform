@@ -5,7 +5,7 @@ using Business.Services.Interfaces;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
-using Scalar.AspNetCore;
+using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -75,8 +75,15 @@ builder.Services.AddDbContext<DatabaseContext>(options =>
 
 // Learn more about configuring OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
-
-builder.Services.AddOpenApi();
+builder.Services.AddSwaggerGen(swaggerGenOptions =>
+{
+    swaggerGenOptions.SwaggerDoc("v1", new OpenApiInfo
+    {
+        Title   = "Central Surf Platform API",
+        Version = "v1"
+    });
+    swaggerGenOptions.CustomSchemaIds(type => type.FullName);
+});
 
 var app = builder.Build();
 
@@ -85,8 +92,11 @@ app.UseCors("AllowReactDev");
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
-    app.MapOpenApi();
-    app.MapScalarApiReference();
+    app.UseSwagger();
+    app.UseSwaggerUI(swaggerUiOptions =>
+    {
+        swaggerUiOptions.SwaggerEndpoint("/swagger/v1/swagger.json", "Central Surf Platform v1");
+    });
 }
 
 app.UseHttpsRedirection();
