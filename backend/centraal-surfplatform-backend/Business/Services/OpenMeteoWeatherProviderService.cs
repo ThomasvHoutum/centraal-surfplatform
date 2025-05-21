@@ -31,7 +31,7 @@ public class OpenMeteoWeatherProviderService : IWeatherProviderService
         {
             Latitude = data.Latitude,
             Longitude = data.Longitude,
-            Time = data.Hourly.Time.Select(DateTime.Parse).ToArray(),
+            Time = data.Hourly.Time.Select(DateTime.Parse).ToList(),
             Temperature = data.Hourly.Temperature_2m,
             WindSpeed = data.Hourly.Wind_Speed_10m,
             WindDirection = data.Hourly.Wind_Direction_10m
