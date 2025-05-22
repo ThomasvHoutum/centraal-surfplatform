@@ -1,0 +1,59 @@
+/* pages/AccountPage.css */
+.account-page {
+  min-height: 100%;
+  background: #f9f9fb;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.account-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.back-btn {
+  border: none;
+  background: none;
+  font-size: 28px;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.account-title {
+  color: #00175a;
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+.account-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.account-item {
+  background: #fff;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+.item-label {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 8px;
+}
+
+.item-input {
+  border: none;
+  background: transparent;
+  font-size: 1rem;
+  color: #6c6c6c;
+  padding: 0;
+}

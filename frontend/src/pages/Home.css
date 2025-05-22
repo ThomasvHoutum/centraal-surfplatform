@@ -78,7 +78,7 @@ html, body {
   transform: translateX(-50%);
   width: calc(100% - 32px);  
   max-width: 280px;
-  background-color: #ff6600;   
+  background-color: #ff6600 ;   
   border: none;
   text-transform: uppercase;
   font-weight: 600;
@@ -86,6 +86,7 @@ html, body {
   padding: 12px 0;
   border-radius: 6px;
   z-index: 7;
+  width: 300px !important;
 }
 
 .spots-section {
@@ -152,4 +153,31 @@ html, body {
   .spot-info .spot-sub {
     font-size: 0.9rem;
   }
+}
+
+.custom-offcanvas {
+  width: 70% !important;
+  max-width: none;
+}
+
+.custom-backdrop {
+  background-color: rgba(0, 0, 0, 0.7) !important;
+}
+
+.custom-offcanvas .offcanvas-header {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.custom-offcanvas .offcanvas-body {
+  padding: 1.5rem;
+}
+
+.custom-offcanvas .nav-link {
+  font-size: 1.1rem;
+  padding: 0.75rem 0;
+  color: #00175a;
+}
+
+.custom-offcanvas .nav-link:hover {
+  color: #ff6600;
 }
