@@ -5,7 +5,7 @@
 namespace Business.Migrations
 {
     /// <inheritdoc />
-    public partial class weatherdataupdate : Migration
+    public partial class UpdateWaveDataMigration : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

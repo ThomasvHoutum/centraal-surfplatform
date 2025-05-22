@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Business.Migrations
 {
     [DbContext(typeof(DatabaseContext))]
-    [Migration("20250518180849_weatherdataupdate")]
-    partial class weatherdataupdate
+    [Migration("20250522174403_UpdateWaveDataMigration")]
+    partial class UpdateWaveDataMigration
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
