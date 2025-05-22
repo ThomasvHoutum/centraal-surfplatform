@@ -1,5 +1,6 @@
 using System.Text;
 using Business.Database;
+using Business.Database.Models.Enums;
 using Business.Services;
 using Business.Services.Interfaces;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -47,14 +48,18 @@ builder.Services.AddControllers();
 // TODO: Dynamically register all services
 builder.Services.AddScoped<ISurfSpotService, SurfSpotService>();
 builder.Services.AddHttpClient<OpenMeteoWeatherProviderService>();
+builder.Services.AddHttpClient<OpenMeteoWaterProviderService>();
 builder.Services.AddScoped<IWeatherProviderService, OpenMeteoWeatherProviderService>();
+builder.Services.AddScoped<IWeatherProviderService, OpenMeteoWaterProviderService>();
 builder.Services.AddScoped<IWeatherService>(provider =>
 {
     var openMeteo = provider.GetRequiredService<OpenMeteoWeatherProviderService>();
+    var openMeteoWater = provider.GetRequiredService<OpenMeteoWaterProviderService>();
 
-    var providers = new Dictionary<string, IWeatherProviderService>
+    var providers = new Dictionary<WeatherProvider, IWeatherProviderService>
     {
-        ["OpenMeteo"] = openMeteo
+        [WeatherProvider.OpenMeteoWeather] = openMeteo,
+        [WeatherProvider.OpenMeteoWater] = openMeteoWater,
     };
     
     var dbContext = provider.GetRequiredService<DatabaseContext>();
