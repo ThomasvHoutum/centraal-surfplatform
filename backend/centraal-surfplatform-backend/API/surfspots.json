@@ -1,0 +1,3349 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.570498,
+          52.320652
+        ]
+      },
+      "properties": {
+        "markername": "Strand Horst",
+        "icon": "star.png",
+        "address": "Strand Horst, Palmbosweg, Ermelo, Nederland",
+        "text": "<a title='Strand Horst' href='http://www.surfspots.nl/spots/strand-horst-2/'>Strand Horst</a><div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'>Strand Horst, Palmbosweg, Ermelo, Nederland (<a href='http://maps.google.com/maps?daddr=Strand+Horst%2C+Palmbosweg%2C+Ermelo%2C+Nederland&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.864098,
+          51.777825
+        ]
+      },
+      "properties": {
+        "markername": "Brouwersdam",
+        "icon": "star.png",
+        "address": "",
+        "text": "<a title='Brouwersdam' href='http://www.surfspots.nl/spots/brouwersdam/'>Brouwersdam</a><div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=51.777825,3.864098&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.752445,
+          52.557986
+        ]
+      },
+      "properties": {
+        "markername": "Alkmaardermeer",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "<a title='Alkmaardermeer' href='http://www.surfspots.nl/test/alkmaardermeer/'>Alkmaardermeer , Uitgees</a><a title='Alkmaardermeer' href='http://www.surfspots.nl/test/alkmaardermeer/'>t</a><div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=52.557986,4.752445&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.205516,
+          52.335105
+        ]
+      },
+      "properties": {
+        "markername": "Almere Centraal",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "<a title='Almere Centraal' href='http://www.surfspots.nl/spots/almere-centraal/'>Almere Centraal , Almere</a><div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=52.335105,5.205516&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.619507,
+          53.455349
+        ]
+      },
+      "properties": {
+        "markername": "Ameland",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "<a title='Ameland' href='http://www.surfspots.nl/spots/ameland/'>Ameland , Ameland</a><div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=53.455349,5.619507&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.912608,
+          52.889523
+        ]
+      },
+      "properties": {
+        "markername": "Amstelmeer",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "<a title='Amstelmeer' href='http://www.surfspots.nl/spots/amstelmeer/'>Amstelmeer , Westerland</a><div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=52.889523,4.912608&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.175762,
+          52.739514
+        ]
+      },
+      "properties": {
+        "markername": "Andijk",
+        "icon": "windsurfing.png",
+        "address": "Dijkweg 360, Andijk, Nederland",
+        "text": "<a title='Andijk' href='http://www.surfspots.nl/spots/andijk/'>Andijk , Andijk</a><div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'>Dijkweg 360, Andijk, Nederland (<a href='http://maps.google.com/maps?daddr=Dijkweg+360%2C+Andijk%2C+Nederland&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.137405,
+          51.521313
+        ]
+      },
+      "properties": {
+        "markername": "Beekse Bergen",
+        "icon": "symbol_inter.png",
+        "address": "",
+        "text": "Beekse Bergen , Beekse Bergen<div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=51.521313,5.137405&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.080117,
+          52.685618
+        ]
+      },
+      "properties": {
+        "markername": "Belterweide",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "<a href='https://www.surfspots.nl/belterwijde/'>Belterweide</a> , Belt Schutsloot<div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=52.685618,6.080117&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.628806,
+          52.661925
+        ]
+      },
+      "properties": {
+        "markername": "Bergen aan Zee",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "<a title='Bergen aan Zee' href='http://www.surfspots.nl/spots/bergen-aan-zee/'>Bergen aan Zee , Bergen aan Zee</a><div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=52.661925,4.628806&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.036301,
+          53.192047
+        ]
+      },
+      "properties": {
+        "markername": "Bergumermeer",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "<a title='Bergumermeer' href='http://www.surfspots.nl/spots/bergumermeer/'>Bergumermeer , Bergum</a><div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=53.192047,6.036301&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.276214,
+          51.487182
+        ]
+      },
+      "properties": {
+        "markername": "Binnenschelde",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "<a title='Binnenschelde' href='http://www.surfspots.nl/spots/binnenschelde/'>Binnenschelde , Bergen op Zoom</a><div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=51.487182,4.276214&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.039734,
+          52.69969
+        ]
+      },
+      "properties": {
+        "markername": "Beulakkerweide",
+        "icon": "symbol_inter.png",
+        "address": "",
+        "text": "Beulakkerweide , Giethoorn<div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=52.699690,6.039734&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.100159,
+          52.725793
+        ]
+      },
+      "properties": {
+        "markername": "Bovenwijde",
+        "icon": "symbol_inter.png",
+        "address": "",
+        "text": "Bovenwijde , Giethoorn<div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=52.725793,6.100159&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.655457,
+          52.196244
+        ]
+      },
+      "properties": {
+        "markername": "Braassemermeer",
+        "icon": "symbol_inter.png",
+        "address": "",
+        "text": "Braassemermeer , Rijnsaterwoude<div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=52.196244,4.655457&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.691763,
+          52.83601
+        ]
+      },
+      "properties": {
+        "markername": "Callantsoog",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "<a title='Callantsoog' href='http://www.surfspots.nl/spots/callantsoog/'>Callantsoog , Callantsoog</a><div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=52.836010,4.691763&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.771255,
+          51.813921
+        ]
+      },
+      "properties": {
+        "markername": "De Berendonck",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "<a title='De Berendonck' href='http://www.surfspots.nl/spots/de-berendonck/'>De Berendonck , Wijchen</a><div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=51.813921,5.771255&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.60556,
+          52.557267
+        ]
+      },
+      "properties": {
+        "markername": "Castricum aan zee",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "<a title='Castricum aan zee' href='http://www.surfspots.nl/spots/castricum-aan-zee/'>Castricum aan zee , Castricum aan zee</a><div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=52.557267,4.605560&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.866013,
+          53.219294
+        ]
+      },
+      "properties": {
+        "markername": "De Groote Wielen",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "<a title='De Groote Wielen' href='http://www.surfspots.nl/spots/de-groote-wielen/'>De Groote Wielen , Leeuwarden</a><div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=53.219294,5.866013&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.378151,
+          53.090931
+        ]
+      },
+      "properties": {
+        "markername": "De Houw",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "<a title='De Houw' href='http://www.surfspots.nl/spots/de-houw/'>De Houw , De Houw</a><div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=53.090931,5.378151&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.07635,
+          53.154935
+        ]
+      },
+      "properties": {
+        "markername": "De Leijen",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "<a title='De Leijen' href='http://www.surfspots.nl/spots/de-leijen/'>De Leijen , Rottevalle</a><div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=53.154935,6.076350&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.382,
+          52.022712
+        ]
+      },
+      "properties": {
+        "markername": "Delftsehout",
+        "icon": "symbol_inter.png",
+        "address": "",
+        "text": "Delftsehout , Delft<div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=52.022712,4.382000&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.91452,
+          53.325952
+        ]
+      },
+      "properties": {
+        "markername": "Delfzijl",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "<a title='Deltfzijl' href='http://www.surfspots.nl/spots/deltfzijl/'>Delfzijl , Delfzijl</a><div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=53.325952,6.914520&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.473805,
+          51.556446
+        ]
+      },
+      "properties": {
+        "markername": "Domburg",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "<a href='http://www.surfspots.nl/spots/domburg/'>Domburg , Domburg</a><div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=51.556446,3.473805&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.071735,
+          52.51925
+        ]
+      },
+      "properties": {
+        "markername": "Edam",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "<a title='Edam' href='http://www.surfspots.nl/spots/edam/'>Edam , Edam</a><div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=52.519250,5.071735&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.618791,
+          52.617948
+        ]
+      },
+      "properties": {
+        "markername": "Egmond aan zee",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "<a title='Egmond aan zee' href='http://www.surfspots.nl/spots/egmond-aan-zee/'>Egmond aan zee , Egmond aan zee</a><div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=52.617948,4.618791&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.292492,
+          52.709467
+        ]
+      },
+      "properties": {
+        "markername": "Enkhuizen",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "<a title='Enkhuizen' href='http://www.surfspots.nl/spots/enkhuizen/'>Enkhuizen , Enkhuizen</a><div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=52.709467,5.292492&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.994659,
+          52.30344
+        ]
+      },
+      "properties": {
+        "markername": "Gaasperplas",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "<a title='Gaasperplas' href='http://www.surfspots.nl/spots/gaasperplas/'>Gaasperplas , Amsterdam Z/O</a><div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=52.303440,4.994659&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.051479,
+          52.458415
+        ]
+      },
+      "properties": {
+        "markername": "Gouwzee",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "<a title='Gouwzee' href='http://www.surfspots.nl/spots/gouwzee/'>Gouwzee , Monnickendam</a><div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=52.458415,5.051479&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.849163,
+          51.755621
+        ]
+      },
+      "properties": {
+        "markername": "Kabbelaarsbank",
+        "icon": "star.png",
+        "address": "",
+        "text": "<a title='Kabbelaarsbank' href='http://www.surfspots.nl/spots/kabbelaarsbank/'>Kabbelaarsbank , Grevenlingen meer</a><div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=51.755621,3.849163&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.700531,
+          50.811575
+        ]
+      },
+      "properties": {
+        "markername": "Grootheggerplas",
+        "icon": "symbol_inter.png",
+        "address": "",
+        "text": "Grootheggerplas , Maasbracht<div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=50.811575,5.700531&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.638805,
+          52.713679
+        ]
+      },
+      "properties": {
+        "markername": "Hargen",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "<a title='Hargen' href='http://www.surfspots.nl/spots/hargen/'>Hargen , Hargen aan Zee</a><div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=52.713679,4.638805&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.074855,
+          51.841638
+        ]
+      },
+      "properties": {
+        "markername": "Haringvliet",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "<a title='Haringvliet' href='http://www.surfspots.nl/spots/haringvliet/'>Haringvliet , Haringvliet</a><div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=51.841638,4.074855&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.401078,
+          52.929229
+        ]
+      },
+      "properties": {
+        "markername": "Hindeloopen",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "<a title='Hindeloopen' href='http://www.surfspots.nl/spots/hindeloopen/'>Hindeloopen , Hindeloopen</a><div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=52.929229,5.401078&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.113007,
+          51.99228
+        ]
+      },
+      "properties": {
+        "markername": "Hoek van Holland",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "<a title='Hoek van Holland' href='http://www.surfspots.nl/spots/hoek-van-holland/'>Hoek van Holland , Hoek van Holland</a><div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=51.992280,4.113007&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.555405,
+          53.179704
+        ]
+      },
+      "properties": {
+        "markername": "Hoornsemeer",
+        "icon": "symbol_inter.png",
+        "address": "",
+        "text": "Hoornsemeer , Groningen<div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=53.179704,6.555405&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.721375,
+          52.951482
+        ]
+      },
+      "properties": {
+        "markername": "Huisduinen",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "<a title='Huisduinen' href='http://www.surfspots.nl/spots/huisduinen/'>Huisduinen , Huisduinen</a><div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=52.951482,4.721375&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.256743,
+          52.30819
+        ]
+      },
+      "properties": {
+        "markername": "Huizen",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "<a title='Huizen' href='http://www.surfspots.nl/spots/huizen/'>Huizen , Huizen</a><div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=52.308190,5.256743&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.555807,
+          52.455722
+        ]
+      },
+      "properties": {
+        "markername": "IJmuiden",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "<a title='IJmuiden' href='http://www.surfspots.nl/spots/ijmuiden/'>IJmuiden , IJmuiden</a><div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=52.455722,4.555807&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.389682,
+          52.201045
+        ]
+      },
+      "properties": {
+        "markername": "Katwijk aan Zee",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "<a title='Katwijk aan Zee' href='http://www.surfspots.nl/spots/katwijk-aan-zee/'>Katwijk aan Zee , Katwijk aan Zee</a><div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=52.201045,4.389682&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.213772,
+          52.067689
+        ]
+      },
+      "properties": {
+        "markername": "Kijkduin",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "<a title='Kijkduin' href='http://www.surfspots.nl/spots/kijkduin/'>Kijkduin , Den Haag</a><div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=52.067689,4.213772&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.726954,
+          52.197402
+        ]
+      },
+      "properties": {
+        "markername": "Langeraarse Plassen",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "<a title='Langeraarse Plassen' href='http://www.surfspots.nl/spots/langeraarse-plassen/'>Langeraarse Plassen , Langeraar</a><div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=52.197402,4.726954&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.158679,
+          53.403729
+        ]
+      },
+      "properties": {
+        "markername": "Lauwersmeer",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "<a title='Lauwersmeer' href='http://www.surfspots.nl/spots/lauwersmeer/'>Lauwersmeer , Hoek van de Bant</a><div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=53.403729,6.158679&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.157751,
+          53.407588
+        ]
+      },
+      "properties": {
+        "markername": "Lauwersoog",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "<a title='Lauwersoog' href='http://www.surfspots.nl/spots/lauwersoog/'>Lauwersoog , Hoek van de Bant</a><div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=53.407588,6.157751&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.425471,
+          52.529622
+        ]
+      },
+      "properties": {
+        "markername": "Lelystad",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "<a title='Lelystad' href='http://www.surfspots.nl/spots/lelystad/'>Lelystad , Lelystad</a><div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=52.529622,5.425471&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.995472,
+          51.91586
+        ]
+      },
+      "properties": {
+        "markername": "Maasvlakte",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "<a title='Maasvlakte' href='http://www.surfspots.nl/spots/maasvlakte/'>Maasvlakte , Maasvlakte</a><div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=51.915860,3.995472&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.383769,
+          53.046697
+        ]
+      },
+      "properties": {
+        "markername": "Makkum",
+        "icon": "star.png",
+        "address": "",
+        "text": "<a title='Makkum' href='http://www.surfspots.nl/spots/makkum/'>Makkum , Makkum</a><div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=53.046697,5.383769&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.438061,
+          51.926908
+        ]
+      },
+      "properties": {
+        "markername": "Maurik en de Beldert",
+        "icon": "symbol_inter.png",
+        "address": "",
+        "text": "Maurik en de Beldert , Maurik<div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=51.926908,5.438061&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.118427,
+          52.767566
+        ]
+      },
+      "properties": {
+        "markername": "Medemblik",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "<a title='Medemblik' href='http://www.surfspots.nl/spots/medemblik/'>Medemblik , Medemblik</a><div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=52.767566,5.118427&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.726181,
+          51.809888
+        ]
+      },
+      "properties": {
+        "markername": "Merwelanden Dordrecht",
+        "icon": "symbol_inter.png",
+        "address": "",
+        "text": "Merwelanden Dordrecht , Dordrecht<div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=51.809888,4.726181&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.479946,
+          52.850578
+        ]
+      },
+      "properties": {
+        "markername": "Mirns",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "<a title='Mirns' href='http://www.surfspots.nl/spots/mirns/'>Mirns , Mirns</a><div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=52.850578,5.479946&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.118771,
+          52.329255
+        ]
+      },
+      "properties": {
+        "markername": "Muiderberg",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "<a title='Muiderberg' href='http://www.surfspots.nl/spots/muiderberg/'>Muiderberg , Muiderberg</a><div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=52.329255,5.118771&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.505768,
+          52.084992
+        ]
+      },
+      "properties": {
+        "markername": "Noord-Aa",
+        "icon": "symbol_inter.png",
+        "address": "",
+        "text": "Noord-Aa , Zoetermeer<div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=52.084992,4.505768&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.430516,
+          52.247904
+        ]
+      },
+      "properties": {
+        "markername": "Noordwijk aan Zee",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "<a title='Noordwijk aan Zee' href='http://www.surfspots.nl/spots/noordwijk-aan-zee/'>Noordwijk aan Zee , Noordwijk aan Zee</a><div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=52.247904,4.430516&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.067687,
+          51.931565
+        ]
+      },
+      "properties": {
+        "markername": "Oostvoornse meer",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "<a title='Oostvoornse meer' href='http://www.surfspots.nl/spots/oostvoornse-meer/'>Oostvoornse meer , Oostvoorne</a><div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=51.931565,4.067687&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.865312,
+          51.81121
+        ]
+      },
+      "properties": {
+        "markername": "Vuurtoren",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "<a title='Vuurtoren' href='http://www.surfspots.nl/spots/vuurtoren/'>Vuurtoren , Ouddorp</a><div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=51.811210,3.865312&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.128333,
+          52.383178
+        ]
+      },
+      "properties": {
+        "markername": "Pampushaven",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "<a title='Pampushaven' href='http://www.surfspots.nl/spots/pampushaven/'>Pampushaven , Almere haven</a><div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=52.383178,5.128333&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.657688,
+          52.773174
+        ]
+      },
+      "properties": {
+        "markername": "Petten",
+        "icon": "symbol_inter.png",
+        "address": "",
+        "text": "Petten , Petten<div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=52.773174,4.657688&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.739612,
+          52.057169
+        ]
+      },
+      "properties": {
+        "markername": "Reeuwijkse plassen Plas Vettenbroek",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "<a title='Reeuwijkse plassen' href='http://www.surfspots.nl/spots/reeuwijkse-plassen/'>Reeuwijkse plassen Plas Vettenbroek , Reeuwijk</a><div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=52.057169,4.739612&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.127401,
+          52.628971
+        ]
+      },
+      "properties": {
+        "markername": "Schellinkhout",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "<a title='Schellinkhout' href='http://www.surfspots.nl/spots/schellinkhout/'>Schellinkhout , Schellinkhout</a><div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=52.628971,5.127401&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.263311,
+          52.103408
+        ]
+      },
+      "properties": {
+        "markername": "Scheveningen",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "<a title='Scheveningen' href='http://www.surfspots.nl/spots/scheveningen/'>Scheveningen , Scheveningen</a><div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=52.103408,4.263311&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.355663,
+          52.887778
+        ]
+      },
+      "properties": {
+        "markername": "Oude Haven",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "<a title='Oude Haven' href='http://www.surfspots.nl/spots/oude-haven/'>Oude Haven , Stavoren</a><div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=52.887778,5.355663&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.539581,
+          52.276411
+        ]
+      },
+      "properties": {
+        "markername": "Strand Nulde",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "<a title='Strand Nulde' href='http://www.surfspots.nl/spots/strand-nulde/'>Strand Nulde , Putten</a><div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=52.276411,5.539581&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.809187,
+          52.910418
+        ]
+      },
+      "properties": {
+        "markername": "Tjeukemeer",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "<a title='Tjeukemeer' href='http://www.surfspots.nl/spots/tjeukemeer/'>Tjeukemeer , Tjeukemeer</a><div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=52.910418,5.809187&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.594117,
+          52.660092
+        ]
+      },
+      "properties": {
+        "markername": "Urk",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "<a title='Urk' href='http://www.surfspots.nl/spots/urk/'>Urk , Urk</a><div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=52.660092,5.594117&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.438477,
+          52.159823
+        ]
+      },
+      "properties": {
+        "markername": "Valkenburgse meer",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "<a title='Valkenburgse meer' href='http://www.surfspots.nl/spots/valkenburgse-meer/'>Valkenburgse meer , Valkenburg</a><div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=52.159823,4.438477&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.723935,
+          52.233792
+        ]
+      },
+      "properties": {
+        "markername": "Westeinderplas",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "<a title='Westeinderplas' href='http://www.surfspots.nl/spots/westeinderplas/'>Westeinderplas , Aalsmeer</a><div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=52.233792,4.723935&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.568018,
+          52.468798
+        ]
+      },
+      "properties": {
+        "markername": "Wijk aan Zee",
+        "icon": "star.png",
+        "address": "",
+        "text": "<a title='Wijk aan Zee' href='http://www.surfspots.nl/spots/wijk-aan-zee/'>Wijk aan Zee , Wijk aan Zee</a><div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=52.468798,4.568018&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.410639,
+          52.96715
+        ]
+      },
+      "properties": {
+        "markername": "Workum",
+        "icon": "star.png",
+        "address": "",
+        "text": "<a title='Workum' href='http://www.surfspots.nl/spots/workum/'>Workum , Workum</a><div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=52.967150,5.410639&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.571912,
+          51.972882
+        ]
+      },
+      "properties": {
+        "markername": "Zevenhuizerplas",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "<a title='Zevenhuizerplas' href='http://www.surfspots.nl/spots/zevenhuizerplas/'>Zevenhuizerplas , Zevenhuizen</a><div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=51.972882,4.571912&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.683172,
+          53.116366
+        ]
+      },
+      "properties": {
+        "markername": "Zuidlaardermeer",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "<a title='Zuidlaardermeer' href='http://www.surfspots.nl/spots/zuidlaardermeer/'>Zuidlaardermeer , Zuidlaren</a><div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=53.116366,6.683172&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.249748,
+          51.706608
+        ]
+      },
+      "properties": {
+        "markername": "’t Engelermeer",
+        "icon": "symbol_inter.png",
+        "address": "",
+        "text": "<a href='http://www.surfspots.nl/spots/t-engelermeer/'>’t Engelermeer , Engelen</a><div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=51.706608,5.249748&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.496063,
+          45.754349
+        ]
+      },
+      "properties": {
+        "markername": "Idromeer",
+        "icon": "camping-2.png",
+        "address": "",
+        "text": "<a title='Idromeer' href='http://www.surfspots.nl/spots/idromeer/'>Idromeer , Vantone / Anfo</a><div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=45.754349,10.496063&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.968323,
+          51.682774
+        ]
+      },
+      "properties": {
+        "markername": "Paesplas",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "<a title='Paesplas' href='http://www.surfspots.nl/spots/paesplas/'>Paesplas , Gennep</a><div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=51.682774,5.968323&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.218063,
+          51.468552
+        ]
+      },
+      "properties": {
+        "markername": "Oesterdam",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "<a title='Oesterdam' href='http://www.surfspots.nl/spots/oesterdam/'>Oesterdam, Bergen op Zoom</a><div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=51.468552,4.218063&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.928762,
+          51.728995
+        ]
+      },
+      "properties": {
+        "markername": "Mookerplas",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "<a title='Mookerplas' href='http://www.surfspots.nl/spots/mookerplas/'>Mookerplas, Plasmolen</a><div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=51.728995,5.928762&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.663916,
+          51.567599
+        ]
+      },
+      "properties": {
+        "markername": "Schotsman",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "<a title='Schotsman' href='http://www.surfspots.nl/spots/schotsman/'>Schotsman, Kamperland</a><div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=51.567599,3.663916&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.115997,
+          42.188847
+        ]
+      },
+      "properties": {
+        "markername": "Baai van Rosas",
+        "icon": "camping-2.png",
+        "address": "",
+        "text": "<a href='http://www.surfspots.nl/roadtrip-baai-van-roses/'>Baai van Roses , Baai van Roses</a><div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=42.188847,3.115997&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.396347,
+          52.904761
+        ]
+      },
+      "properties": {
+        "markername": "Molkwerum",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "<a title='Molkwerum' href='http://www.surfspots.nl/spots/molkwerum/'>Molkwerum , Molkwerum</a><div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=52.904761,5.396347&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.818631,
+          51.747965
+        ]
+      },
+      "properties": {
+        "markername": "Kraaijenbergse Plassen",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "<a title='Kraaijenbergse Plassen' href='http://www.surfspots.nl/spots/kraaijenbergse-plassen/'>Kraaijenbergse Plassen , Linden</a><div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=51.747965,5.818631&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.015259,
+          52.355474
+        ]
+      },
+      "properties": {
+        "markername": "IJburg",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "<a title='IJburg' href='http://www.surfspots.nl/spots/ijburg/'>IJburg , Amsterdam</a><div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=52.355474,5.015259&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.931188,
+          52.292982
+        ]
+      },
+      "properties": {
+        "markername": "Oudekerker plas",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "<a title='Oudekerker plas' href='http://www.surfspots.nl/spots/oudekerker-plas/'>Oudekerker plas , Ouderkerk a/d Amstel</a><div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=52.292982,4.931188&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.072937,
+          52.230191
+        ]
+      },
+      "properties": {
+        "markername": "de Wijde Blik",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "<a title='de Wijde Blik' href='http://www.surfspots.nl/spots/de-wijde-blik/'>de Wijde Blik , Kortenhoef</a><div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=52.230191,5.072937&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.338722,
+          46.141069
+        ]
+      },
+      "properties": {
+        "markername": "Comomeer",
+        "icon": "camping-2.png",
+        "address": "",
+        "text": "<a title='Comomeer' href='http://www.surfspots.nl/spots/comomeer/'>Comomeer , Domaso</a><div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=46.141069,9.338722&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.865479,
+          45.866106
+        ]
+      },
+      "properties": {
+        "markername": "Gardameer",
+        "icon": "camping-2.png",
+        "address": "",
+        "text": "<a title='Gardameer' href='http://www.surfspots.nl/spots/gardameer/'>Gardameer , Torbole</a><div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=45.866106,10.865479&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.750809,
+          45.873278
+        ]
+      },
+      "properties": {
+        "markername": "Ledromeer",
+        "icon": "camping-2.png",
+        "address": "",
+        "text": "<a title='Ledromeer' href='http://www.surfspots.nl/spots/ledromeer/'>Ledromeer, Ledromeer</a><div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=45.873278,10.750809&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.079275,
+          51.707888
+        ]
+      },
+      "properties": {
+        "markername": "Herkingen",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "<a title='Herkingen' href='http://www.surfspots.nl/spots/herkingen-2/'>Herkingen, Herkingen</a><div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=51.707888,4.079275&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.764302,
+          52.579387
+        ]
+      },
+      "properties": {
+        "markername": "Ketelhaven",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "<a title='Ketelhaven' href='http://www.surfspots.nl/spots/ketelhaven/'>Ketelhaven , Ketelhaven</a><div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=52.579387,5.764302&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.134708,
+          51.318383
+        ]
+      },
+      "properties": {
+        "markername": "Blankenberge",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "<a title='Blankenberge' href='http://www.surfspots.nl/spots/blankenberge/'>Blankenberge , Blankenberge</a><div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=51.318383,3.134708&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.619507,
+          36.018004
+        ]
+      },
+      "properties": {
+        "markername": "Balneario",
+        "icon": "camping-2.png",
+        "address": "",
+        "text": "Balneario , Tarifa<div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=36.018004,-5.619507&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.592041,
+          36.013561
+        ]
+      },
+      "properties": {
+        "markername": "Los Lances",
+        "icon": "camping-2.png",
+        "address": "",
+        "text": "Los Lances , Tarifa<div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=36.013561,-5.592041&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.606461,
+          36.007451
+        ]
+      },
+      "properties": {
+        "markername": "Dos Mares",
+        "icon": "camping-2.png",
+        "address": "",
+        "text": "Dos Mares , Tarifa<div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=36.007451,-5.606461&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.608521,
+          36.013561
+        ]
+      },
+      "properties": {
+        "markername": "Casa del Poro",
+        "icon": "camping-2.png",
+        "address": "",
+        "text": "Casa del Poro , Tarifa<div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=36.013561,-5.608521&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.600967,
+          36.008006
+        ]
+      },
+      "properties": {
+        "markername": "Bolonia",
+        "icon": "camping-2.png",
+        "address": "",
+        "text": "Bolonia , Tarifa<div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=36.008006,-5.600967&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.603027,
+          36.004673
+        ]
+      },
+      "properties": {
+        "markername": "Caños",
+        "icon": "camping-2.png",
+        "address": "",
+        "text": "Caños , Tarifa<div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=36.004673,-5.603027&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.592041,
+          36.009117
+        ]
+      },
+      "properties": {
+        "markername": "Hurricane",
+        "icon": "camping-2.png",
+        "address": "",
+        "text": "Hurricane , Tarifa<div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=36.009117,-5.592041&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.61058,
+          36.002452
+        ]
+      },
+      "properties": {
+        "markername": "Bunker",
+        "icon": "camping-2.png",
+        "address": "",
+        "text": "Bunker , Tarifa<div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=36.002452,-5.610580&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.581055,
+          36.022447
+        ]
+      },
+      "properties": {
+        "markername": "Arte Vida",
+        "icon": "camping-2.png",
+        "address": "",
+        "text": "Arte Vida , Tarifa<div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=36.022447,-5.581055&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -13.435936,
+          29.141966
+        ]
+      },
+      "properties": {
+        "markername": "Gr Tiburon",
+        "icon": "camping-2.png",
+        "address": "",
+        "text": "Gr Tiburon , Lanzarote<div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=29.141966,-13.435936&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.483677,
+          57.042784
+        ]
+      },
+      "properties": {
+        "markername": "Klitmoller",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "<a title='Klitmoller' href='http://www.surfspots.nl/spots/klitmoller/'>Klitmoller , Klitmoller</a><div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=57.042784,8.483677&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.039436,
+          42.930788
+        ]
+      },
+      "properties": {
+        "markername": "La Franqui",
+        "icon": "camping-2.png",
+        "address": "",
+        "text": "La Franqui , Leucate<div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=42.930788,3.039436&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.018494,
+          42.90816
+        ]
+      },
+      "properties": {
+        "markername": "La Goulet",
+        "icon": "camping-2.png",
+        "address": "",
+        "text": "<a title='La Goulet' href='http://www.surfspots.nl/spots/la-goulet/'>La Goulet , Leucate</a><div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=42.908160,3.018494&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.023987,
+          42.904136
+        ]
+      },
+      "properties": {
+        "markername": "La Mine",
+        "icon": "camping-2.png",
+        "address": "",
+        "text": "La Mine , Leucate<div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=42.904136,3.023987&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.73658,
+          52.396972
+        ]
+      },
+      "properties": {
+        "markername": "Nunspeet",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "Nunspeet , Nunspeet<div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=52.396972,5.736580&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.13207,
+          51.678274
+        ]
+      },
+      "properties": {
+        "markername": "Grevelingendam",
+        "icon": "star.png",
+        "address": "",
+        "text": "<a title='Grevelingendam' href='http://www.surfspots.nl/spots/grevelingendam/'>Grevelingendam , Bruinisse</a><div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=51.678274,4.132070&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.952373,
+          51.184502
+        ]
+      },
+      "properties": {
+        "markername": "Oolderplas",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "<a href='http://www.surfspots.nl/spots/oolderplas/'>Oolderplas , Roermond</a><div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=51.184502,5.952373&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.872852,
+          51.781011
+        ]
+      },
+      "properties": {
+        "markername": "De punt west",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "<a href='http://www.surfspots.nl/spots/de-punt/'>De punt west , Ouddorp</a><div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=51.781011,3.872852&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.342875,
+          53.073609
+        ]
+      },
+      "properties": {
+        "markername": "Kornwerderzand",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "Kornwerderzand , Afsluitdijk<div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=53.073609,5.342875&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.707328,
+          51.517422
+        ]
+      },
+      "properties": {
+        "markername": "Oranjeplaat",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "<a href='http://www.surfspots.nl/spots/oranjeplaat/'>Oranjeplaat , Arnemuiden</a><div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=51.517422,3.707328&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.413342,
+          52.636514
+        ]
+      },
+      "properties": {
+        "markername": "Trintelhaven",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "<a href='http://www.surfspots.nl/spots/trintelhaven/'>Trintelhaven , Lelystad</a><div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=52.636514,5.413342&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.384132,
+          51.376924
+        ]
+      },
+      "properties": {
+        "markername": "Cadzand-Bad",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "<a href='http://www.surfspots.nl/spots/cadzand-bad/'>Cadzand-Bad , Cadzand-Bad</a><div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=51.376924,3.384132&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.338333,
+          46.106565
+        ]
+      },
+      "properties": {
+        "markername": "Lago di Santa Croce",
+        "icon": "camping-2.png",
+        "address": "",
+        "text": "Lago di Santa Croce , Farra d 'alpago<div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=46.106565,12.338333&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.727264,
+          46.040829
+        ]
+      },
+      "properties": {
+        "markername": "Lago Maggiore",
+        "icon": "camping-2.png",
+        "address": "",
+        "text": "Lago Maggiore , Maccagno<div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=46.040829,8.727264&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.138855,
+          52.333661
+        ]
+      },
+      "properties": {
+        "markername": "Muiderzand",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "Muiderzand , Almere<div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=52.333661,5.138855&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.314987,
+          54.284068
+        ]
+      },
+      "properties": {
+        "markername": "Oostzee",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "Oostzee , Neuhaus<div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=54.284068,12.314987&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.106873,
+          44.968199
+        ]
+      },
+      "properties": {
+        "markername": "Lacanau",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "Lacanau , Lacanau<div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=44.968199,-1.106873&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.152344,
+          45.874712
+        ]
+      },
+      "properties": {
+        "markername": "Lac du Annecy",
+        "icon": "camping-2.png",
+        "address": "",
+        "text": "Lac du Annecy , Annecy<div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=45.874712,6.152344&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.37447,
+          37.098729
+        ]
+      },
+      "properties": {
+        "markername": "Naxos - St. George beach",
+        "icon": "camping-2.png",
+        "address": "",
+        "text": "Naxos - St. George beach , Naxos ( Hora ) - Greece<div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=37.098729,25.374470&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.089545,
+          52.338905
+        ]
+      },
+      "properties": {
+        "markername": "Muider schelpenstrandje (S)",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "Muider schelpenstrandje (S) , Muiden<div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=52.338905,5.089545&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.241173,
+          57.089401
+        ]
+      },
+      "properties": {
+        "markername": "apelviken ",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "apelviken , apelviken<div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=57.089401,12.241173&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.465454,
+          44.536164
+        ]
+      },
+      "properties": {
+        "markername": "La Garenne",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "La Garenne , Crots<div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=44.536164,6.465454&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.038116,
+          43.536354
+        ]
+      },
+      "properties": {
+        "markername": "Palm Beach",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "Palm Beach , Cannes<div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=43.536354,7.038116&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.674267,
+          52.374446
+        ]
+      },
+      "properties": {
+        "markername": "Hierden",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "Hierden , Hierden<div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=52.374446,5.674267&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.026443,
+          53.170855
+        ]
+      },
+      "properties": {
+        "markername": "Blauwe Stad",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "Blauwe Stad , Winschoten<div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=53.170855,7.026443&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.945006,
+          51.801239
+        ]
+      },
+      "properties": {
+        "markername": "Ouddorp Haven",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "Ouddorp Haven , Ouddorp<div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=51.801239,3.945006&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.368035,
+          52.873598
+        ]
+      },
+      "properties": {
+        "markername": "Marina Buitenhaven Stavoren",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "Marina Buitenhaven Stavoren , Stavoren<div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=52.873598,5.368035&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.450394,
+          51.392404
+        ]
+      },
+      "properties": {
+        "markername": "Matour",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "Matour , Nieuwvliet<div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=51.392404,3.450394&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.493507,
+          51.978431
+        ]
+      },
+      "properties": {
+        "markername": "Ingen",
+        "icon": "symbol_excla.png",
+        "address": "",
+        "text": "Ingen , Ingen<br /><br />Hier kun je eigenlijk niet echt surfen, je kunt beter naar het Eiland van Maurik rijden.<div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=51.978431,5.493507&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.721379,
+          51.473061
+        ]
+      },
+      "properties": {
+        "markername": "Berkendonk",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "Berkendonk , Helmond<div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=51.473061,5.721379&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.301147,
+          51.916744
+        ]
+      },
+      "properties": {
+        "markername": "Krabbeplas",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "Krabbeplas , Vlaardingen<div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=51.916744,4.301147&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.606018,
+          51.19957
+        ]
+      },
+      "properties": {
+        "markername": "broechem",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "broechem , broechem<div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=51.199570,4.606018&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.416775,
+          53.167871
+        ]
+      },
+      "properties": {
+        "markername": "harlingen",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "harlingen , harlingen<div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=53.167871,5.416775&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.234143,
+          51.342784
+        ]
+      },
+      "properties": {
+        "markername": "Heist",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "Heist , Heist<div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=51.342784,3.234143&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.703627,
+          52.382357
+        ]
+      },
+      "properties": {
+        "markername": "Badhoophuizen",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "Badhoophuizen , Hulshorst<div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=52.382357,5.703627&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.910661,
+          51.825501
+        ]
+      },
+      "properties": {
+        "markername": "flauwe werken",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "flauwe werken , Ouddorp<div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=51.825501,3.910661&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3512,
+          52.268788
+        ]
+      },
+      "properties": {
+        "markername": "Eemdijk",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "Eemdijk , Bunschoten<div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=52.268788,5.351200&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.83374,
+          51.141448
+        ]
+      },
+      "properties": {
+        "markername": "Kessenich",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "Kessenich , Kessenich<div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=51.141448,5.833740&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.257816,
+          52.687101
+        ]
+      },
+      "properties": {
+        "markername": "broekerhaven",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "broekerhaven , Bovenkarspel<div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=52.687101,5.257816&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.6926,
+          51.849208
+        ]
+      },
+      "properties": {
+        "markername": "de Groene Heuvels",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "de Groene Heuvels , Wijchen<div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=51.849208,5.692600&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.435729,
+          51.716819
+        ]
+      },
+      "properties": {
+        "markername": "Haringvlietbrug",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "Haringvlietbrug , Numansdorp<div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=51.716819,4.435729&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.949928,
+          51.529251
+        ]
+      },
+      "properties": {
+        "markername": "Kattendijke",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "Kattendijke , Kattendijke<div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=51.529251,3.949928&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.114994,
+          51.78579
+        ]
+      },
+      "properties": {
+        "markername": "Neswaarden",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "Neswaarden , Aalst<div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=51.785790,5.114994&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.515381,
+          52.191614
+        ]
+      },
+      "properties": {
+        "markername": "'t Joppe",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "'t Joppe , Kaag<div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=52.191614,4.515381&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.273193,
+          50.854509
+        ]
+      },
+      "properties": {
+        "markername": "blausteinsee",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "blausteinsee , eschweiler<div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=50.854509,6.273193&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.494232,
+          -2.799026
+        ]
+      },
+      "properties": {
+        "markername": "Jerriecoacoara",
+        "icon": "camping-2.png",
+        "address": "",
+        "text": "Jerriecoacoara , Jerricoacoara<div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=-2.799026,-40.494232&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.511969,
+          52.193574
+        ]
+      },
+      "properties": {
+        "markername": "Kagerplassen",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "Kagerplassen , Warmond<div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=52.193574,4.511969&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.26442,
+          46.379623
+        ]
+      },
+      "properties": {
+        "markername": "kalterersee",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "kalterersee , Kaltern<div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=46.379623,11.264420&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.888916,
+          52.452662
+        ]
+      },
+      "properties": {
+        "markername": "het twiske",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "het twiske , Oostzaan<div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=52.452662,4.888916&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.120903,
+          51.433464
+        ]
+      },
+      "properties": {
+        "markername": "Krabbendijke",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "Krabbendijke , Krabbendijke<div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=51.433464,4.120903&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.898324,
+          51.824182
+        ]
+      },
+      "properties": {
+        "markername": "'t zwarte Hekje",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "'t zwarte Hekje , Ouddorp<div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=51.824182,3.898324&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.709187,
+          53.020618
+        ]
+      },
+      "properties": {
+        "markername": "paal 9",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "paal 9 , Den Hoorn Texel<div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=53.020618,4.709187&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.39463,
+          52.258281
+        ]
+      },
+      "properties": {
+        "markername": "eemhof",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "eemhof , Zeewolde<div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=52.258281,5.394630&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.16612,
+          52.235764
+        ]
+      },
+      "properties": {
+        "markername": "deventer",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "deventer , deventer<div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=52.235764,6.166120&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.057415,
+          51.995874
+        ]
+      },
+      "properties": {
+        "markername": "Giesbeek",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "Giesbeek , Giesbeek<div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=51.995874,6.057415&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.401913,
+          52.03499
+        ]
+      },
+      "properties": {
+        "markername": "Dobbeplas",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "Dobbeplas , Pijnacker-Nootdorp<div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=52.034990,4.401913&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.409222,
+          51.817105
+        ]
+      },
+      "properties": {
+        "markername": "Lithse Ham",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "Lithse Ham , Lith<div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=51.817105,5.409222&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.976021,
+          51.730431
+        ]
+      },
+      "properties": {
+        "markername": "bommenede",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "bommenede , zonnemaire<div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=51.730431,3.976021&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.936565,
+          53.282356
+        ]
+      },
+      "properties": {
+        "markername": "eeltje meer",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "eeltje meer , Rinsemugeest<div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=53.282356,5.936565&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.394974,
+          51.801609
+        ]
+      },
+      "properties": {
+        "markername": "Maren Kessel",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "Maren Kessel , Maren Kessel<div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=51.801609,5.394974&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.551344,
+          52.418702
+        ]
+      },
+      "properties": {
+        "markername": "Bloemendaal - Parnassia",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "Bloemendaal - Parnassia , Bloemendaal<div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=52.418702,4.551344&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.959463,
+          33.872625
+        ]
+      },
+      "properties": {
+        "markername": "Djerba",
+        "icon": "stop.png",
+        "address": "",
+        "text": "Djerba , Djerba<br /><br />Ministerie van Buitenlandse zaken heeft een negatief reisadvies voor het grensgebied afgegeven. Overige gebieden alleen noodzakelijke reizen, dus minder geschikt voor een surfvakantie.<div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=33.872625,10.959463&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.780268,
+          51.896569
+        ]
+      },
+      "properties": {
+        "markername": "Verloren Zeeg",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "Verloren Zeeg , Slijk-Ewijk<div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=51.896569,5.780268&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.853009,
+          52.51054
+        ]
+      },
+      "properties": {
+        "markername": "abbertstrand",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "abbertstrand , elburg<div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=52.510540,5.853009&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.787735,
+          52.434115
+        ]
+      },
+      "properties": {
+        "markername": "ellerstrand",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "ellerstrand , elburg<div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=52.434115,5.787735&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.210408,
+          53.402266
+        ]
+      },
+      "properties": {
+        "markername": "robbengat",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "robbengat , lauwersoog<div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=53.402266,6.210408&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.022812,
+          52.592256
+        ]
+      },
+      "properties": {
+        "markername": "SCHARDAM",
+        "icon": "symbol_inter.png",
+        "address": "",
+        "text": "SCHARDAM , SCHARDAM<br /><br />Het is daar verboden te surfen en te kiten. Bij de kust liggen stenen en 50 meter uit kust is afgezet met scheidingslijn &amp; drijvers voor recreanten.<br /><br />&nbsp;<div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=52.592256,5.022812&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.761047,
+          53.050156
+        ]
+      },
+      "properties": {
+        "markername": "zandplaat",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "zandplaat , snekermeer<div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=53.050156,5.761047&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.768251,
+          53.01246
+        ]
+      },
+      "properties": {
+        "markername": "surfstrandje",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "surfstrandje , goingarijp<div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=53.012460,5.768251&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.82179,
+          52.453952
+        ]
+      },
+      "properties": {
+        "markername": "Veluwebadstrand",
+        "icon": "windsurfing.png",
+        "address": "Veluwestrandbad, Elburg, Nederland",
+        "text": "<a title='Veluwestrandbad' href='http://www.surfspots.nl/spots/veluwestrandbad/'>Veluwestrandbad, Elburg</a><div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'>Veluwestrandbad, Elburg, Nederland (<a href='http://maps.google.com/maps?daddr=Veluwestrandbad%2C+Elburg%2C+Nederland&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.073511,
+          51.300086
+        ]
+      },
+      "properties": {
+        "markername": "Wenduine",
+        "icon": "windsurfing.png",
+        "address": "Wenduine, De Haan, België",
+        "text": "<a title='Wenduine' href='http://www.surfspots.nl/spots/wenduine/'>Wenduine, Wenduine</a><div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'>Wenduine, De Haan, België (<a href='http://maps.google.com/maps?daddr=Wenduine%2C+De+Haan%2C+Belgi%C3%AB&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.884997,
+          51.0729
+        ]
+      },
+      "properties": {
+        "markername": "WVG Lochristi-Beervelde",
+        "icon": "windsurfing.png",
+        "address": "Beervelde, Lochristi, België",
+        "text": "<a title='WVG Lochristi-Beervelde' href='http://www.surfspots.nl/spots/wvg-lochristi-beervelde/'>WVG Lochristi-Beervelde, Lochristi-Beervelde</a><div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'>Beervelde, Lochristi, België (<a href='http://maps.google.com/maps?daddr=Beervelde%2C+Lochristi%2C+Belgi%C3%AB&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.172989,
+          51.330612
+        ]
+      },
+      "properties": {
+        "markername": "Boulevard Zeebrugge",
+        "icon": "windsurfing.png",
+        "address": "Zeebrugge, Brugge, België",
+        "text": "<a title='Zeebrugge Boulevard' href='http://www.surfspots.nl/spots/zeebrugge-boulevard/'>Boulevard Zeebrugge</a><div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'>Zeebrugge, Brugge, België (<a href='http://maps.google.com/maps?daddr=Zeebrugge%2C+Brugge%2C+Belgi%C3%AB&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.61058,
+          36.016338
+        ]
+      },
+      "properties": {
+        "markername": "Tarifa",
+        "icon": "windsurfing.png",
+        "address": "Tarifa, Spanje",
+        "text": "<a title='Tarifa' href='http://www.surfspots.nl/spots/tarifa/'>Tarifa</a><div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'>Tarifa, Spanje (<a href='http://maps.google.com/maps?daddr=Tarifa%2C+Spanje&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.418835,
+          52.486387
+        ]
+      },
+      "properties": {
+        "markername": "",
+        "icon": "windsurfing.png",
+        "address": "",
+        "text": "<a title='Lelystad' href='http://www.surfspots.nl/spots/lelystad-2/'>Lelystad, 't Bovenwater</a><div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'> (<a href='http://maps.google.com/maps?daddr=52.486387,5.418835&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.627892,
+          51.581657
+        ]
+      },
+      "properties": {
+        "markername": "Vrouwenpolder",
+        "icon": "windsurfing.png",
+        "address": "Vrouwenpolder, Nederland",
+        "text": "<a href='http://www.surfspots.nl/spots/vrouwenpolder/'>Vrouwenpolder, Vrouwenpolder</a><div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'>Vrouwenpolder, Nederland (<a href='http://maps.google.com/maps?daddr=Vrouwenpolder%2C+Nederland&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.342102,
+          53.073609
+        ]
+      },
+      "properties": {
+        "markername": "Kornwerderzand",
+        "icon": "windsurfing.png",
+        "address": "Kornwerderzand, Nederland",
+        "text": "<a href='http://www.surfspots.nl/spots/kornwerderzand/'>Kornwerderzand</a><div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'>Kornwerderzand, Nederland (<a href='http://maps.google.com/maps?daddr=Kornwerderzand%2C+Nederland&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.764038,
+          51.542086
+        ]
+      },
+      "properties": {
+        "markername": "wolphaartsdijk muidenweg",
+        "icon": "windsurfing.png",
+        "address": "Muidenweg, Wolphaartsdijk, Nederland",
+        "text": "<a href='http://www.surfspots.nl/spots/wolphaartsdijk-muidenweg/'>Wolphaartsdijk Muiden</a><div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'>Muidenweg, Wolphaartsdijk, Nederland (<a href='http://maps.google.com/maps?daddr=Muidenweg%2C+Wolphaartsdijk%2C+Nederland&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.766582,
+          52.131376
+        ]
+      },
+      "properties": {
+        "markername": "Nieuwkoop",
+        "icon": "windsurfing.png",
+        "address": "Zuideinde 32F, 2421 AJ Nieuwkoop, Nederland",
+        "text": "<a href='http://www.surfspots.nl/spots/nieuwkoop-zuidhoek-meijestrand/'>Nieuwkoopse plassen, Nieuwkoop </a><div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'>Zuideinde 32F, 2421 AJ Nieuwkoop, Nederland (<a href='http://maps.google.com/maps?daddr=Zuideinde+32F%2C+2421+AJ+Nieuwkoop%2C+Nederland&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.694751,
+          53.145818
+        ]
+      },
+      "properties": {
+        "markername": "Meerwijk",
+        "icon": "windsurfing.png",
+        "address": "Strandweg, Kropswolde, Nederland",
+        "text": "<a href='http://www.surfspots.nl/spots/meerwijk/'>Meerwijk, Kropswolde</a><div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'>Strandweg, Kropswolde, Nederland (<a href='http://maps.google.com/maps?daddr=Strandweg%2C+Kropswolde%2C+Nederland&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.424384,
+          53.176617
+        ]
+      },
+      "properties": {
+        "markername": "Leekstermeer",
+        "icon": "windsurfing.png",
+        "address": "Leekstermeer, Noordenveld, Nederland",
+        "text": "<a href='http://www.surfspots.nl/test/leekstermeer/'>Leekstermeer</a><div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'>Leekstermeer, Noordenveld, Nederland (<a href='http://maps.google.com/maps?daddr=Leekstermeer%2C+Noordenveld%2C+Nederland&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.830728,
+          52.333854
+        ]
+      },
+      "properties": {
+        "markername": "De nieuwe meer",
+        "icon": "windsurfing.png",
+        "address": "Riekerweg 40, 1066 BT Amsterdam, Nederland",
+        "text": "<a href='http://www.surfspots.nl/spots/de-nieuwe-meer/'>De nieuwe meer</a><div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'>Riekerweg 40, 1066 BT Amsterdam, Nederland (<a href='http://maps.google.com/maps?daddr=Riekerweg+40%2C+1066+BT+Amsterdam%2C+Nederland&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.588146,
+          39.274524
+        ]
+      },
+      "properties": {
+        "markername": "Costa Rei",
+        "icon": "windsurfing.png",
+        "address": "Costa Rei, Cagliari, Italië",
+        "text": "<a href='http://www.surfspots.nl/costa-rei-sardinie/'>Costa Rei</a><div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'>Costa Rei, Cagliari, Italië (<a href='http://maps.google.com/maps?daddr=Costa+Rei%2C+Cagliari%2C+Itali%C3%AB&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.755978,
+          52.418328
+        ]
+      },
+      "properties": {
+        "markername": "Boschberg",
+        "icon": "windsurfing.png",
+        "address": "Biddinghuizen Flevoland, Nederland",
+        "text": "<a href='https://www.surfspots.nl/spots/boschberg/'>Boschberg, Biddinghuizen</a><div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'>Biddinghuizen Flevoland, Nederland (<a href='http://maps.google.com/maps?daddr=Biddinghuizen+Flevoland%2C+Nederland&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.916725,
+          52.081134
+        ]
+      },
+      "properties": {
+        "markername": "Catterbroek",
+        "icon": "windsurfing.png",
+        "address": "Woerden Utrecht, Nederland",
+        "text": "<a href='https://www.surfspots.nl/spots/cattenbroek/'>Cattenbroek, Woerden</a><div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'>Woerden Utrecht, Nederland (<a href='http://maps.google.com/maps?daddr=Woerden+Utrecht%2C+Nederland&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.171728,
+          52.631753
+        ]
+      },
+      "properties": {
+        "markername": "Wijdenes",
+        "icon": "windsurfing.png",
+        "address": "Wijdenes Noord-Holland, Nederland",
+        "text": "<a href='https://www.surfspots.nl/spots/wijdenes/'>Wijdenes</a><div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'>Wijdenes Noord-Holland, Nederland (<a href='http://maps.google.com/maps?daddr=Wijdenes+Noord-Holland%2C+Nederland&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.079406,
+          52.436381
+        ]
+      },
+      "properties": {
+        "markername": "Nes",
+        "icon": "windsurfing.png",
+        "address": "Zeedijk Noord-Holland, Nederland",
+        "text": "<a href='https://www.surfspots.nl/nes/'>Nes, uitdam</a><div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'>Zeedijk Noord-Holland, Nederland (<a href='http://maps.google.com/maps?daddr=Zeedijk+Noord-Holland%2C+Nederland&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.243611,
+          52.681753
+        ]
+      },
+      "properties": {
+        "markername": "Hondenhemeltje",
+        "icon": "windsurfing.png",
+        "address": "Broekerhaven North Holland, Nederland",
+        "text": "<a href='https://www.surfspots.nl/hondenhemeltje/'>Hondenhemeltje, Broekerhaven</a><div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'>Broekerhaven North Holland, Nederland (<a href='http://maps.google.com/maps?daddr=Broekerhaven+North+Holland%2C+Nederland&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.021321,
+          51.803624
+        ]
+      },
+      "properties": {
+        "markername": "Afgedamde Maas, Rijswijk",
+        "icon": "windsurfing.png",
+        "address": "Rijswijk Zuid-Holland, Nederland",
+        "text": "<a href='https://www.surfspots.nl/afgedamde-maas/'>Afgedamde Maas, Rijswijk</a><div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'>Rijswijk Zuid-Holland, Nederland (<a href='http://maps.google.com/maps?daddr=Rijswijk+Zuid-Holland%2C+Nederland&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.412998,
+          51.971029
+        ]
+      },
+      "properties": {
+        "markername": "Eiland van Maurik",
+        "icon": "windsurfing.png",
+        "address": "Maurik",
+        "text": "<a href='https://www.surfspots.nl/spots/eiland-van-maurik/'>Eiland van Maurik</a><div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'>Maurik (<a href='http://maps.google.com/maps?daddr=Maurik&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.564972,
+          52.317094
+        ]
+      },
+      "properties": {
+        "markername": "Telstar Surf",
+        "icon": "supermarket.png",
+        "address": "Palmbosweg 16 Gelderland, Nederland",
+        "text": "Telstar Surf<br />Palmbosweg 16<br />3853 LB Ermelo (Strand Horst)<br />Gratis parkeren<br /><br />&nbsp;<br /><br />https://www.telstarsurf.nl/<div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'>Palmbosweg 16 Gelderland, Nederland (<a href='http://maps.google.com/maps?daddr=Palmbosweg+16+Gelderland%2C+Nederland&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.40652,
+          52.9373
+        ]
+      },
+      "properties": {
+        "markername": "Gearfreak Hindeloopen",
+        "icon": "supermarket.png",
+        "address": "De Tôlve 5 Fryslân, Nederland",
+        "text": "Gearfreak Hindeloopen<br /><br />De Tôlve 5, Hindeloopen<br /><br />https://www.gearfreakhindeloopen.nl/<div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'>De Tôlve 5 Fryslân, Nederland (<a href='http://maps.google.com/maps?daddr=De+T%C3%B4lve+5+Frysl%C3%A2n%2C+Nederland&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.406918,
+          52.200773
+        ]
+      },
+      "properties": {
+        "markername": "Gearfreak Katwijk aan Zee",
+        "icon": "supermarket.png",
+        "address": "Katwijk Aan Zee South Holland, Nederland",
+        "text": "<h1>Gearfreak Katwijk aan Zee</h1><br />Secretaris Varkevisserstraat 345, 2225 LD Katwijk aan Zee<br /><br />https://www.gearfreak.nl/<div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'>Katwijk Aan Zee South Holland, Nederland (<a href='http://maps.google.com/maps?daddr=Katwijk+Aan+Zee+South+Holland%2C+Nederland&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.55486,
+          51.9791
+        ]
+      },
+      "properties": {
+        "markername": "Eurofuncenter Zevenhuizen",
+        "icon": "supermarket.png",
+        "address": "Strandweg 29  Zuid-Holland, Nederland",
+        "text": "Eurofuncenter Zevenhuizen<br /><br />Strandweg 29, 2761 DM Zevenhuizen<br /><br />https://www.eurofun.nl/nl<div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'>Strandweg 29  Zuid-Holland, Nederland (<a href='http://maps.google.com/maps?daddr=Strandweg+29++Zuid-Holland%2C+Nederland&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.0611,
+          51.9315
+        ]
+      },
+      "properties": {
+        "markername": "Eurofuncenter Oostvoorne",
+        "icon": "supermarket.png",
+        "address": "Noordoever Oostvoornse Meer 3 Zuid-Holland, Nederland",
+        "text": "Eurofuncenter Oostvoorne<br /><br />Noordoever Oostvoornse Meer 3 Zuid-Holland, Nederland<br /><br />http://www.eurofun.nl/<div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'>Noordoever Oostvoornse Meer 3 Zuid-Holland, Nederland (<a href='http://maps.google.com/maps?daddr=Noordoever+Oostvoornse+Meer+3+Zuid-Holland%2C+Nederland&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.43894,
+          51.696
+        ]
+      },
+      "properties": {
+        "markername": "Van Bellen Wind & Snow",
+        "icon": "supermarket.png",
+        "address": "Lantaarndijk 12 Noord-Brabant, Nederland",
+        "text": "Van Bellen Wind &amp; Snow<br /><br />Lantaarndijk 12 4797 SP Willemstad<br /><br />https://www.vanbellen.nl/<div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'>Lantaarndijk 12 Noord-Brabant, Nederland (<a href='http://maps.google.com/maps?daddr=Lantaarndijk+12+Noord-Brabant%2C+Nederland&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.837058,
+          53.266926
+        ]
+      },
+      "properties": {
+        "markername": "Surfcenter",
+        "icon": "supermarket.png",
+        "address": "Roegeweg 1 Groningen, Nederland",
+        "text": "Surfcenter<br /><br />Roegeweg 1 9629 PA Steendam<br /><br />https://surf-center.com/<div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'>Roegeweg 1 Groningen, Nederland (<a href='http://maps.google.com/maps?daddr=Roegeweg+1+Groningen%2C+Nederland&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.37959,
+          53.053
+        ]
+      },
+      "properties": {
+        "markername": "Funsport Makkum",
+        "icon": "supermarket.png",
+        "address": "De Skilbank 9 Fryslân, Nederland",
+        "text": "De Skilbank 9 8754 HP Makkum<br /><br />https://www.funsportmakkum.nl/<div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'>De Skilbank 9 Fryslân, Nederland (<a href='http://maps.google.com/maps?daddr=De+Skilbank+9+Frysl%C3%A2n%2C+Nederland&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.09807,
+          52.6427
+        ]
+      },
+      "properties": {
+        "markername": "VANDENBERG HOORN",
+        "icon": "supermarket.png",
+        "address": "Kernweg 1 Noord-Holland, Nederland",
+        "text": "<h2 class='title-page'>VANDENBERG HOORN</h2><br />Kernweg 1 Noord-Holland, Nederland<br /><br />https://www.vandenbergsurf.nl/h<div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'>Kernweg 1 Noord-Holland, Nederland (<a href='http://maps.google.com/maps?daddr=Kernweg+1+Noord-Holland%2C+Nederland&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.52872,
+          52.3761
+        ]
+      },
+      "properties": {
+        "markername": "VANDENBERG ZANDVOORT",
+        "icon": "supermarket.png",
+        "address": "Passage 27 Noord-Holland, Nederland",
+        "text": "VANDENBERG ZANDVOORT<br /><br />Passage 27 Zandvoort, Nederland<br /><br />https://www.vandenbergsurf.nl/<div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'>Passage 27 Noord-Holland, Nederland (<a href='http://maps.google.com/maps?daddr=Passage+27+Noord-Holland%2C+Nederland&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.13887,
+          52.3394
+        ]
+      },
+      "properties": {
+        "markername": "VANDENBERG ALMERE",
+        "icon": "supermarket.png",
+        "address": "Zeeduinweg 576 Flevoland, Nederland",
+        "text": "<h2 class='title-page'>VANDENBERG  ALMERE</h2><br />Zeeduinweg 576 Almere, Nederland<br /><br />https://www.vandenbergsurf.nl/<div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'>Zeeduinweg 576 Flevoland, Nederland (<a href='http://maps.google.com/maps?daddr=Zeeduinweg+576+Flevoland%2C+Nederland&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.271315,
+          52.098653
+        ]
+      },
+      "properties": {
+        "markername": "EssentialStore",
+        "icon": "supermarket.png",
+        "address": "Doctor Lelykade 2583  Zuid-Holland, Nederland",
+        "text": "EssentialStore<br /><br />Dr. Lelykade 38-K<br />2583 CM Den Haag<br /><br />https://www.essentialstore.nl/<div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'>Doctor Lelykade 2583  Zuid-Holland, Nederland (<a href='http://maps.google.com/maps?daddr=Doctor+Lelykade+2583++Zuid-Holland%2C+Nederland&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.95291,
+          52.9026
+        ]
+      },
+      "properties": {
+        "markername": "Kater Funsport HIPPOLYTUSHOEF",
+        "icon": "supermarket.png",
+        "address": "Belterlaan 30 Noord-Holland, Nederland",
+        "text": "Kater Funsport HIPPOLYTUSHOEF<br /><br />Belterlaan 30, 1777 HM Hippolytushoef<br /><br />https://www.kater.nl/<div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'>Belterlaan 30 Noord-Holland, Nederland (<a href='http://maps.google.com/maps?daddr=Belterlaan+30+Noord-Holland%2C+Nederland&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.76653,
+          52.6213
+        ]
+      },
+      "properties": {
+        "markername": "Kater Funsport Alkmaar",
+        "icon": "supermarket.png",
+        "address": "Herculesstraat 57 Noord-Holland, Nederland",
+        "text": "Kater Funsport Alkmaar<br /><br />Herculesstraat 57, 1812 PD Alkmaar<br /><br />https://www.kater.nl/<div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'>Herculesstraat 57 Noord-Holland, Nederland (<a href='http://maps.google.com/maps?daddr=Herculesstraat+57+Noord-Holland%2C+Nederland&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.80471,
+          51.5546
+        ]
+      },
+      "properties": {
+        "markername": "Zwemer Watersport",
+        "icon": "supermarket.png",
+        "address": "Havenweg 4 Zeeland, Nederland",
+        "text": "<b>Zwemer Watersport</b><br /><br />Havenweg 4, 4493 MT Kamperland<br /><br />https://www.zwemer.nl/<div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'>Havenweg 4 Zeeland, Nederland (<a href='http://maps.google.com/maps?daddr=Havenweg+4+Zeeland%2C+Nederland&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.851995,
+          51.753987
+        ]
+      },
+      "properties": {
+        "markername": "Zeil- & Surfcentrum Brouwersdam",
+        "icon": "supermarket.png",
+        "address": "Ouddorp Zuid-Holland, Nederland",
+        "text": "Zeil- &amp; Surfcentrum Brouwersdam<br /><br />Ossenhoek 1 (Kabbelaarsbank), 3253 MH Ouddorp (ZH)<br /><br />https://www.brouwersdam.nl/<div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'>Ouddorp Zuid-Holland, Nederland (<a href='http://maps.google.com/maps?daddr=Ouddorp+Zuid-Holland%2C+Nederland&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.847328,
+          51.76018
+        ]
+      },
+      "properties": {
+        "markername": "natural-high",
+        "icon": "supermarket.png",
+        "address": "Brouwersdam 22 Zuid-Holland, Nederland",
+        "text": "natural-high<br /><br />Brouwersdam 22, 3253 MM Ouddorp<br /><br />https://www.natural-high.nl/<div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'>Brouwersdam 22 Zuid-Holland, Nederland (<a href='http://maps.google.com/maps?daddr=Brouwersdam+22+Zuid-Holland%2C+Nederland&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.35507,
+          51.7186
+        ]
+      },
+      "properties": {
+        "markername": "vangentsurfensnow",
+        "icon": "supermarket.png",
+        "address": "Striensestraat 43 Noord-Brabant, Nederland",
+        "text": "vangentsurfensnow<br /><br />Striensestraat 43<br />5241AW Rosmalen<br /><br />www.vangentsurfensnow.nl<div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'>Striensestraat 43 Noord-Brabant, Nederland (<a href='http://maps.google.com/maps?daddr=Striensestraat+43+Noord-Brabant%2C+Nederland&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.95606,
+          51.1775
+        ]
+      },
+      "properties": {
+        "markername": "windsurfcenter-roermond",
+        "icon": "supermarket.png",
+        "address": "Broekveeweg 103 Limburg, Nederland",
+        "text": "windsurfcenter-roermond<br /><br />Broekveeweg 103, 6049 CK Herten<br /><br />www.windsurfcenter-roermond.nl<div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'>Broekveeweg 103 Limburg, Nederland (<a href='http://maps.google.com/maps?daddr=Broekveeweg+103+Limburg%2C+Nederland&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.998932,
+          51.197046
+        ]
+      },
+      "properties": {
+        "markername": "windsurf & more",
+        "icon": "supermarket.png",
+        "address": "Doctor Philipslaan Limburg, Nederland",
+        "text": "windsurfandmore<br /><br />Doctor Philipslaan 25C<br />6042CT Roermond<br /><br />www.windsurfandmore.nl<div class='popup-directions' style='border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;'>Doctor Philipslaan Limburg, Nederland (<a href='http://maps.google.com/maps?daddr=Doctor+Philipslaan+Limburg%2C+Nederland&t=m&layer=1&doflg=ptk&om=0' target='_blank' title='Route berekenen'>Route</a>)</div>"
+      }
+    }
+  ]
+}

@@ -17,7 +17,7 @@ import "../styles/MapWithBottomSheet.css";
 
 const mapContainerStyle = { width: "100%", height: "100%" };
 const center = { lat: 52.370216, lng: 4.895168 };
-const API_BASE_URL = process.env.REACT_APP_API_URL || "https://localhost:7107";
+const API_BASE_URL = process.env.REACT_APP_API_URL || "http://localhost:5000";
 
 export default function MapWithBottomSheet() {
   const [surfSpots, setSurfSpots] = useState([]);
@@ -35,7 +35,7 @@ export default function MapWithBottomSheet() {
   useEffect(() => {
     async function fetchSurfSpots() {
       try {
-        const resp = await axios.get(`${API_BASE_URL}/SurfSpot/test`);
+        const resp = await axios.get(`${API_BASE_URL}/SurfSpot`);
         const spots = resp.data.map((s) => ({
           id: s.id,
           name: s.name,

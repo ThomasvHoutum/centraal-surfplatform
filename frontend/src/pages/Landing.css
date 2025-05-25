@@ -1,23 +1,48 @@
 html, body {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
+  overflow-y: visible; /* Belangrijk voor knop */
+  font-family: 'Helvetica Neue', sans-serif;
 }
 
-.home {
-  font-family: 'Helvetica Neue', sans-serif;
+.landing {
   background: #fff;
   color: #333;
   width: 100%;
+  position: relative;
   overflow-x: hidden;
+  overflow-y: visible;
 }
 
 .hero {
   position: relative;
   width: 100%;
-  height: 60vh;               
-  overflow: hidden;
+  height: 60vh;
+  padding-bottom: 56px;
+  z-index: 20;
 }
 
+/* Hero image */
+.hero-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: relative;
+  z-index: 5;
+}
+
+/* Gradient fade at bottom of image */
+.fade {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40%;
+  background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, #fff 100%);
+  z-index: 6;
+}
+
+/* Hamburger menu */
 .hamburger {
   position: absolute;
   top: 16px;
@@ -28,32 +53,15 @@ html, body {
   color: #fff;
 }
 
-.hero-img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  position: relative;
-  z-index: 5;
-}
-
-.fade {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 40%;
-  background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, #fff 100%);
-  z-index: 6;
-}
-
-
+/* Hero title */
 .hero-title {
   position: absolute;
-  bottom: 30%;             
-  left: 50%;                
+  bottom: 30%;
+  left: 50%;
   transform: translateX(-50%);
-  width: 80%;               
-  white-space: nowrap;      
-  text-align: center;     
+  width: 80%;
+  white-space: nowrap;
+  text-align: center;
   margin: 0;
   padding: 4px 0;
   background: linear-gradient(
@@ -69,27 +77,28 @@ html, body {
   z-index: 7;
 }
 
-
-
-.discover-btn {
-  position: absolute;
-  bottom: 20%;                
-  left: 50%;
-  transform: translateX(-50%);
-  width: calc(100% - 32px);  
-  max-width: 280px;
-  background-color: #ff6600;   
-  border: none;
-  text-transform: uppercase;
+.landing-btn {
+  display: block;
+  margin: -36px auto 32px;
+  background-color: #F9690E;
+  color: white;
+  padding: 14px 0;
+  font-size: 22px;
   font-weight: 600;
-  font-size: 1rem;
-  padding: 12px 0;
-  border-radius: 6px;
-  z-index: 7;
+  font-family: 'Inter', sans-serif;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 8px;
+  box-shadow: inset 0 -2px 4px rgba(0, 0, 0, 0.25);
+  z-index: 100;
+  width: calc(100% - 112px); /* 56px per kant */
 }
 
+/* Spots section */
 .spots-section {
-  padding: 24px 16px;
+  padding: 48px 16px 24px;
+  position: relative;
+  z-index: 1;
 }
 
 .spots-heading {
@@ -124,31 +133,43 @@ html, body {
   color: #666;
 }
 
+/* Responsive styles */
 @media (min-width: 992px) {
   .hero {
     height: 80vh;
   }
+
   .hero-title {
     font-size: 2.5rem;
     top: 40px;
     left: 40px;
+    transform: none;
+    text-align: left;
+    width: auto;
   }
-  .discover-btn {
+
+  .landing-btn {
     font-size: 1.1rem;
     padding: 16px 0;
-    bottom: 18%;
+    left: 80px;
+    right: 80px;
+    bottom: -32px;
   }
+
   .spots-section {
     max-width: 960px;
     margin: 0 auto;
   }
+
   .spot-thumb {
     width: 80px;
     height: 80px;
   }
+
   .spot-info .spot-name {
     font-size: 1.1rem;
   }
+
   .spot-info .spot-sub {
     font-size: 0.9rem;
   }
