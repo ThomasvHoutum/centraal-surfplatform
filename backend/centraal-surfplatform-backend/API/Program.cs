@@ -95,21 +95,26 @@ var app = builder.Build();
 app.UseCors("AllowReactDev");
 
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
+app.UseSwagger();
+app.UseSwaggerUI(swaggerUiOptions =>
 {
-    app.UseSwagger();
-    app.UseSwaggerUI(swaggerUiOptions =>
-    {
-        swaggerUiOptions.SwaggerEndpoint("/swagger/v1/swagger.json", "Central Surf Platform v1");
-    });
-}
-
-app.UseHttpsRedirection();
+    swaggerUiOptions.SwaggerEndpoint("/swagger/v1/swagger.json", "Central Surf Platform v1");
+});
 
 app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
+
+// If run in production, automatically run migrations on startup
+if (app.Environment.IsProduction())
+{
+    using (var scope = app.Services.CreateScope())
+    {
+        var dbContext = scope.ServiceProvider.GetRequiredService<DatabaseContext>();
+        dbContext.Database.Migrate();
+    }
+}
 
 app.Run();
 
