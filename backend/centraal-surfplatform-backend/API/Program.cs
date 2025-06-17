@@ -1,5 +1,6 @@
 using System.Text;
 using Business.Database;
+using Business.Database.Models.Enums;
 using Business.Services;
 using Business.Services.Interfaces;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -47,14 +48,18 @@ builder.Services.AddControllers();
 // TODO: Dynamically register all services
 builder.Services.AddScoped<ISurfSpotService, SurfSpotService>();
 builder.Services.AddHttpClient<OpenMeteoWeatherProviderService>();
+builder.Services.AddHttpClient<OpenMeteoWaterProviderService>();
 builder.Services.AddScoped<IWeatherProviderService, OpenMeteoWeatherProviderService>();
+builder.Services.AddScoped<IWeatherProviderService, OpenMeteoWaterProviderService>();
 builder.Services.AddScoped<IWeatherService>(provider =>
 {
     var openMeteo = provider.GetRequiredService<OpenMeteoWeatherProviderService>();
+    var openMeteoWater = provider.GetRequiredService<OpenMeteoWaterProviderService>();
 
-    var providers = new Dictionary<string, IWeatherProviderService>
+    var providers = new Dictionary<WeatherProvider, IWeatherProviderService>
     {
-        ["OpenMeteo"] = openMeteo
+        [WeatherProvider.OpenMeteoWeather] = openMeteo,
+        [WeatherProvider.OpenMeteoWater] = openMeteoWater,
     };
     
     var dbContext = provider.GetRequiredService<DatabaseContext>();
@@ -90,21 +95,26 @@ var app = builder.Build();
 app.UseCors("AllowReactDev");
 
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
+app.UseSwagger();
+app.UseSwaggerUI(swaggerUiOptions =>
 {
-    app.UseSwagger();
-    app.UseSwaggerUI(swaggerUiOptions =>
-    {
-        swaggerUiOptions.SwaggerEndpoint("/swagger/v1/swagger.json", "Central Surf Platform v1");
-    });
-}
-
-app.UseHttpsRedirection();
+    swaggerUiOptions.SwaggerEndpoint("/swagger/v1/swagger.json", "Central Surf Platform v1");
+});
 
 app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
+
+// If run in production, automatically run migrations on startup
+if (app.Environment.IsProduction())
+{
+    using (var scope = app.Services.CreateScope())
+    {
+        var dbContext = scope.ServiceProvider.GetRequiredService<DatabaseContext>();
+        dbContext.Database.Migrate();
+    }
+}
 
 app.Run();
 

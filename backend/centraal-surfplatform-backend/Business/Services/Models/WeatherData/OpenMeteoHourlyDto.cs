@@ -4,11 +4,11 @@ namespace Business.Services.Models.WeatherData;
 
 public class OpenMeteoHourlyDto
 {
-    public string[] Time { get; set; } = Array.Empty<string>();
+    public List<string> Time { get; set; } = [];
     [JsonPropertyName("temperature_2m")]
-    public double[]? Temperature_2m { get; set; } = Array.Empty<double>();
+    public List<double>? Temperature_2m { get; set; } = [];
     [JsonPropertyName("wind_speed_10m")]
-    public double[]? Wind_Speed_10m { get; set; } = Array.Empty<double>();
+    public List<double>? Wind_Speed_10m { get; set; } = [];
     [JsonPropertyName("wind_direction_10m")]
-    public double[]? Wind_Direction_10m { get; set; } = Array.Empty<double>();
+    public List<double>? Wind_Direction_10m { get; set; } = [];
 }
