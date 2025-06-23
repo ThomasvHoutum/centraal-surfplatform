@@ -3,19 +3,19 @@
   color: white;
   border: none;
   padding: 10px 0;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: 600;
   border-radius: 8px;
   box-shadow: 0 4px 0 #c65300;
   transition: all 0.2s ease-in-out;
+  width: 100%;
+  display: block;
 }
-
 .btn-orange:hover {
   background-color: #e55c04;
   box-shadow: 0 3px 0 #a94400;
   transform: translateY(1px);
 }
-
 .btn-orange:active {
   transform: translateY(2px);
   box-shadow: 0 1px 0 #8b3e00;

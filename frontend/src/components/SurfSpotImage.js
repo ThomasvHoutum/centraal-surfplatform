@@ -11,16 +11,25 @@ const SurfSpotImage = ({ spot }) => {
   const imageUrl = `https://maps.googleapis.com/maps/api/staticmap?center=${lat},${lng}&zoom=13&size=600x300&maptype=satellite&key=${GOOGLE_STATIC_MAPS_KEY}`;
 
   return (
-    <img
-      src={imageUrl}
-      alt={`Luchtfoto van ${spot.name}`}
+    <div
       style={{
-        width: "100%",
-        borderRadius: "1rem",
-        objectFit: "cover",
-        height: "200px",
+        border: "3px solid #ccd6f6",
+        borderRadius: "12px",
+        overflow: "hidden",
+        marginBottom: "1rem",
       }}
-    />
+    >
+      <img
+        src={imageUrl}
+        alt={`Luchtfoto van ${spot.name}`}
+        style={{
+          width: "100%",
+          height: "200px",
+          objectFit: "cover",
+          display: "block",
+        }}
+      />
+    </div>
   );
 };
 

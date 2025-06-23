@@ -8,6 +8,7 @@ import SpotDetailList from "../components/SpotDetailList";
 import OrangeButton from "../components/OrangeButton";
 import MoreInfoSheet from "../components/MoreInfoSheet";
 import { faWater } from "@fortawesome/free-solid-svg-icons";
+import { faToolbox } from "@fortawesome/free-solid-svg-icons";
 
 const API_BASE_URL = process.env.REACT_APP_API_URL || "http://localhost:5000";
 
@@ -41,7 +42,10 @@ export default function SurfSpotInfo() {
   if (!spot || !weather) return <div className="p-3">Laden...</div>;
 
   return (
-    <div className="container d-flex flex-column min-vh-100 py-4" style={{ maxWidth: "430px" }}>
+    <div
+      className="container d-flex flex-column min-vh-100 py-4"
+      style={{ maxWidth: "430px", position: "relative", margin: "0 auto" }}
+    >
       <HeaderBar title="LOGO" />
 
       <div className="mb-3 rounded overflow-hidden">
@@ -49,12 +53,10 @@ export default function SurfSpotInfo() {
       </div>
 
       <HeadTitle title={spot.name} icon={faWater} />
-
       <SpotDetailList spot={spot} weather={weather} />
 
       <div className="mt-4">
-        <HeadTitle title="Voorzieningen" />
-
+        <HeadTitle title="Voorzieningen" icon={faToolbox} />
         <div className="mb-4">
           <input
             type="text"
@@ -71,18 +73,20 @@ export default function SurfSpotInfo() {
         </div>
       </div>
 
-      <div className="mt-auto">
-        <OrangeButton onClick={() => setShowMoreInfo(true)}>
-          Meer info
-        </OrangeButton>
-      </div>
-
       {showMoreInfo && (
         <MoreInfoSheet
           spot={spot}
           weather={weather}
           onClose={() => setShowMoreInfo(false)}
         />
+      )}
+
+      {!showMoreInfo && (
+        <div className="mt-auto">
+          <OrangeButton onClick={() => setShowMoreInfo(true)}>
+            Meer info
+          </OrangeButton>
+        </div>
       )}
     </div>
   );
