@@ -4,6 +4,7 @@ import axios from "axios";
 import SurfSpotImage from "../components/SurfSpotImage";
 import MoreInfoSheet from "../components/MoreInfoSheet";
 import OrangeButton from "../components/OrangeButton";
+import SpotTitle from "../components/SpotTitle";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faThermometerHalf,
@@ -13,8 +14,6 @@ import {
   faCloudSun,
   faChevronLeft,
 } from "@fortawesome/free-solid-svg-icons";
-
-// Vergeet niet Bootstrap CSS toe te voegen in index.html of via npm
 
 const API_BASE_URL = process.env.REACT_APP_API_URL || "http://localhost:5000";
 
@@ -68,11 +67,7 @@ export default function SurfSpotInfo() {
         <SurfSpotImage spot={spot} />
       </div>
 
-      {/* Titel */}
-      <h1 className="display-7 text-primary fw-semibold mb-4">
-        <FontAwesomeIcon icon={faWater} className="me-2" />
-        {spot.name}
-      </h1>
+      <SpotTitle title={spot.name} />
 
       {/* Kerngegevens */}
       <ul className="list-unstyled fs-6 mb-4">
