@@ -4,7 +4,7 @@ import { Navbar, Container } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronLeft } from "@fortawesome/free-solid-svg-icons";
 
-const NavBar = ({ showBackButton = true, title = "LOGO" }) => {
+const HeaderBar = ({ showBackButton = true, title = "LOGO" }) => {
   const navigate = useNavigate();
 
   return (
@@ -17,13 +17,11 @@ const NavBar = ({ showBackButton = true, title = "LOGO" }) => {
             </button>
           )}
         </div>
-
         <div className="text-center mx-auto fw-bold text-primary">{title}</div>
-
         <div style={{ width: "60px" }}></div>
       </Container>
     </Navbar>
   );
 };
 
-export default Navbar;
+export default HeaderBar;
