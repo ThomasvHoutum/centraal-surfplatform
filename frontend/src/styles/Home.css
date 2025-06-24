@@ -39,7 +39,7 @@ html, body {
 
 .hero-title {
   position: absolute;
-  top: 18%;
+  top: 12%;
   left: 8%;
   margin: 0;
   padding: 0;
@@ -62,7 +62,7 @@ html, body {
 
 .hero-title-background {
   position: absolute;
-  top: 17.5%;
+  top: 12%;
   width: 150%;
   height: 200px;
   background: rgba(90, 90, 90, 0.4);
