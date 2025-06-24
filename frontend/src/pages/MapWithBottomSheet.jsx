@@ -45,7 +45,7 @@ export default function MapWithBottomSheet() {
   useEffect(() => {
     async function fetchSurfSpots() {
       try {
-        const resp = await axios.get(`${API_BASE_URL}/SurfSpot/test`);
+        const resp = await axios.get(`${API_BASE_URL}/SurfSpot`);
         const spots = resp.data.map((s) => ({
           id: s.id,
           name: s.name,
