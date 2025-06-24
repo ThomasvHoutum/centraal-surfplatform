@@ -12,27 +12,13 @@ public class SurfSpotServiceTests
         // Arrange
         await using var context = DatabaseHelper.CreateInMemoryDbContext();
         var surfSpotService = new SurfSpotService(context);
-        const int id = 1;
-        
-        // note: to check if the test fails if the database does contain the requested surfspot
-        // we add a surfspot to the database
-        /*
-        var createDto = new CreateSurfSpotDto
-        {
-            Name = "test",
-            Latitude = 30,
-            Longitude = 30
-        };
-        await surfSpotService.CreateSurfSpotAsync([createDto]);
-        */
         
         // Act & Assert
         // Note: Since the database is empty, any id we request, should throw an exception
         await Assert.ThrowsAsync<KeyNotFoundException>(async () =>
         {
-            await surfSpotService.GetSurfSpotByIdAsync(id);
+            await surfSpotService.GetSurfSpotByIdAsync(1);
         });
-
     }
     
     [Fact]
@@ -49,12 +35,13 @@ public class SurfSpotServiceTests
             Longitude = 40
         };
         await surfSpotService.CreateSurfSpotAsync([createDto]);
-        var created = (await surfSpotService.GetAllSurfSpotsAsync()).Single();
+        var created = (await surfSpotService.GetAllSurfSpotsAsync()).FirstOrDefault();
 
         // Act
         var result = await surfSpotService.GetSurfSpotByIdAsync(created.Id);
 
         // Assert
+        Assert.NotNull(result);
         Assert.Equal("TestLocatie", result.Name);
         Assert.Equal(52, result.Latitude);
         Assert.Equal(40, result.Longitude);
@@ -80,6 +67,8 @@ public class SurfSpotServiceTests
         // Assert
         var spot = Assert.Single(allSpots);
         Assert.Equal("TestLocatie", spot.Name);
+        Assert.Equal(52, spot.Latitude);
+        Assert.Equal(40, spot.Longitude);
     }
     
     [Fact]
@@ -89,10 +78,9 @@ public class SurfSpotServiceTests
         await using var context = DatabaseHelper.CreateInMemoryDbContext();
         var surfSpotService = new SurfSpotService(context);
         
-        await surfSpotService.CreateSurfSpotAsync(new[]
-        {
+        await surfSpotService.CreateSurfSpotAsync([
             new CreateSurfSpotDto { Name = "OudeLocatie", Latitude = 48, Longitude = 23 }
-        });
+        ]);
         var target = (await surfSpotService.GetAllSurfSpotsAsync()).Single();
 
         var updateDto = new UpdateSurfSpotDto
@@ -119,10 +107,9 @@ public class SurfSpotServiceTests
         await using var context = DatabaseHelper.CreateInMemoryDbContext();
         var surfSpotService = new SurfSpotService(context);
 
-        await surfSpotService.CreateSurfSpotAsync(new[]
-        {
-            new CreateSurfSpotDto { Name = "TestLocatie", Latitude = 63, Longitude = 43 }
-        });
+        await surfSpotService.CreateSurfSpotAsync([
+            new CreateSurfSpotDto { Name = "OudeLocatie", Latitude = 48, Longitude = 23 }
+        ]);
         var spot = (await surfSpotService.GetAllSurfSpotsAsync()).Single();
 
         // Act
