@@ -6,7 +6,7 @@
   right: 0;
   margin: 0 auto;
   max-width: 430px;
-  background: #fff;
+  background: #F6F4F4;
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
   padding: 1.5rem;
@@ -20,4 +20,44 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom: 1rem;
+}
+
+.weather-details {
+  list-style: none;
+  padding-left: 14px;
+  margin-top: 1rem;
+}
+
+.weather-details li {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+.icon-col {
+  display: inline-block;
+  width: 1.6rem;
+  text-align: center;
+  margin-right: 0.5rem;
+}
+
+.moreinfo-sheet .weather-details .coord-icon {
+  color: #762B8A !important;
+}
+
+.moreinfo-sheet .weather-details .time-icon {
+  color: #703BA9 !important;
+}
+
+.moreinfo-sheet .weather-details .temp-icon {
+  color: #f4a300 !important;
+}
+
+.moreinfo-sheet .weather-details .wind-icon {
+  color: #6c757d !important;
+}
+
+.moreinfo-sheet .weather-details .wave-icon {
+  color: #007bff;
 }

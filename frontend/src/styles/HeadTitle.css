@@ -1,4 +1,6 @@
 .head-title {
   color: #01175E;
   font-weight: 600;
+  white-space: pre-line;
+  padding-left: 8px;
 }
