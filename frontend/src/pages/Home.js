@@ -60,13 +60,14 @@ export default function Home() {
         </button>
 
         <img src={heroImg} alt="Windsurfer" className="hero-img" />
-        <div className="fade" />
-        <h1 className="hero-title">WAAR SURF JIJ?</h1>
+        <div className="hero-title-background"></div>
+        <h1 className="hero-title">
+          WAAR<br />SURF<br />JIJ?
+        </h1>
       </div>
       <OrangeButton className="discover-btn" onClick={() => navigate("/searchmap")}>
-                ONTDEK JE SPOT
-              </OrangeButton>
-
+        ONTDEK JE SPOT
+      </OrangeButton>
       <FavoriteSpotsLanding spots={favoriteSpots} />
     </div>
   );
