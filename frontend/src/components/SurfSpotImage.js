@@ -8,7 +8,7 @@ const SurfSpotImage = ({ spot }) => {
   const lat = spot.latitude || spot.position?.lat;
   const lng = spot.longitude || spot.position?.lng;
 
-  const imageUrl = `https://maps.googleapis.com/maps/api/staticmap?center=${lat},${lng}&zoom=13&size=600x300&maptype=satellite&key=${GOOGLE_STATIC_MAPS_KEY}`;
+  const imageUrl = `https://maps.googleapis.com/maps/api/staticmap?center=${lat},${lng}&zoom=13&size=600x300&maptype=roadmap&markers=color:0xff69b4|${spot.latitude},${spot.longitude}&key=${GOOGLE_STATIC_MAPS_KEY}`;
 
   return (
     <div

@@ -1,21 +1,56 @@
-import React from 'react';
-import { Container, Row, Col, Button } from 'react-bootstrap';
-import { FaBars } from 'react-icons/fa';
+import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import heroImg from '../assets/images/hero.jpg';
-import zandvoortImg from '../assets/images/zandvoort.jpg';
-import hoekImg from '../assets/images/hoek-van-holland.jpg';
-import scheveningenImg from '../assets/images/scheveningen.jpg';
-import './Home.css';
+import { FaBars } from 'react-icons/fa';
+import axios from 'axios';
 
-const spots = [
-  { name: 'Zandvoort', img: zandvoortImg, subtitle: 'Condities' },
-  { name: 'Hoek van Holland', img: hoekImg, subtitle: 'Condities' },
-  { name: 'Scheveningen', img: scheveningenImg, subtitle: 'Condities' },
-];
+import heroImg from '../assets/images/hero.jpg';
+import '../styles/Home.css';
+import OrangeButton from "../components/OrangeButton";
+
+import FavoriteSpotsLanding from '../components/FavoriteSpotsLanding';
+
+const API_BASE_URL = process.env.REACT_APP_API_URL || "http://localhost:5000";
 
 export default function Home() {
   const navigate = useNavigate();
+  const [favoriteSpots, setFavoriteSpots] = useState([]);
+
+  useEffect(() => {
+    async function fetchFavoriteSpots() {
+      const spotIds = [4, 27, 47];
+
+      try {
+        const spotRequests = spotIds.map((id) =>
+          axios.get(`${API_BASE_URL}/SurfSpot/${id}`)
+        );
+        const spotResponses = await Promise.all(spotRequests);
+
+        const enrichedSpots = await Promise.all(
+          spotResponses.map(async (res) => {
+            const spot = res.data;
+
+            const weatherRes = await axios.get(`${API_BASE_URL}/Weather`, {
+              params: {
+                latitude: spot.latitude,
+                longitude: spot.longitude,
+              },
+            });
+
+            return {
+              ...spot,
+              weather: weatherRes.data,
+            };
+          })
+        );
+
+        setFavoriteSpots(enrichedSpots);
+      } catch (err) {
+        console.error("Fout bij ophalen van populaire spots:", err);
+      }
+    }
+
+    fetchFavoriteSpots();
+  }, []);
 
   return (
     <div className="home">
@@ -26,37 +61,13 @@ export default function Home() {
 
         <img src={heroImg} alt="Windsurfer" className="hero-img" />
         <div className="fade" />
-
         <h1 className="hero-title">WAAR SURF JIJ?</h1>
-
-        <Button
-          className="discover-btn"
-          onClick={() => navigate('/searchmap')}
-        >
-          ONTDEK JE SPOT
-        </Button>
       </div>
+      <OrangeButton className="discover-btn" onClick={() => navigate("/searchmap")}>
+                ONTDEK JE SPOT
+              </OrangeButton>
 
-      <Container className="spots-section">
-        <h2 className="spots-heading">Populaire Spots</h2>
-        <Row className="g-3">
-          {spots.map((spot) => (
-            <Col key={spot.name} xs={12} sm={6} md={4}>
-              <div className="spot-item d-flex align-items-center">
-                <img
-                  src={spot.img}
-                  alt={spot.name}
-                  className="spot-thumb"
-                />
-                <div className="spot-info ms-3">
-                  <div className="spot-name">{spot.name}</div>
-                  <div className="spot-sub">{spot.subtitle}</div>
-                </div>
-              </div>
-            </Col>
-          ))}
-        </Row>
-      </Container>
+      <FavoriteSpotsLanding spots={favoriteSpots} />
     </div>
   );
 }

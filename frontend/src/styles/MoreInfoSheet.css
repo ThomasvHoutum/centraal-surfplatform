@@ -43,19 +43,19 @@
 }
 
 .moreinfo-sheet .weather-details .coord-icon {
-  color: #762B8A !important;
+  color: #762B8A;
 }
 
 .moreinfo-sheet .weather-details .time-icon {
-  color: #703BA9 !important;
+  color: #703BA9;
 }
 
 .moreinfo-sheet .weather-details .temp-icon {
-  color: #f4a300 !important;
+  color: #f4a300;
 }
 
 .moreinfo-sheet .weather-details .wind-icon {
-  color: #6c757d !important;
+  color: #6c757d;
 }
 
 .moreinfo-sheet .weather-details .wave-icon {
