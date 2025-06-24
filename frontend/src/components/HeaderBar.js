@@ -12,9 +12,8 @@ const HeaderBar = ({ showBackButton = true, title = "LOGO" }) => {
       <Container className="justify-content-between align-items-center">
         <div>
           {showBackButton && (
-            <button className="btn btn-outline-secondary btn-sm" onClick={() => navigate(-1)}>
-              <FontAwesomeIcon icon={faChevronLeft} /> Terug
-            </button>
+            <button className="btn btn-light btn-sm" onClick={() => navigate(-1)}>
+            <FontAwesomeIcon icon={faChevronLeft} size="lg" /></button>
           )}
         </div>
         <div className="text-center mx-auto fw-bold text-primary">{title}</div>

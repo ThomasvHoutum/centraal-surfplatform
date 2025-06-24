@@ -6,7 +6,7 @@ export default function OrangeButton({ children, onClick, type = "button", class
     <button
       type={type}
       onClick={onClick}
-      className={`btn btn-orange w-100 ${className}`}
+      className={`btn-orange w-100 ${className}`}
     >
       {children}
     </button>

@@ -12,7 +12,7 @@ const NavBar = ({ showBackButton = true, title = "LOGO" }) => {
       <Container className="justify-content-between align-items-center">
         <div>
           {showBackButton && (
-            <button className="btn btn-outline-secondary btn-sm" onClick={() => navigate(-1)}>
+            <button className="btn btn-light btn-sm" onClick={() => navigate(-1)}>
               <FontAwesomeIcon icon={faChevronLeft} /> Terug
             </button>
           )}
